@@ -30,21 +30,21 @@ export default function Description(){
                     </div>
                 </div>
 
-                <div>
-                    <div className="hidden md:block">
-                        <Image src={boy_with_microphone} alt="Парень с микрофоном"/>
+                <div className="flex justify-between">
+                    <div className="hidden sm:flex flex-col justify-center sm:w-1/3">
+                        <Image src={boy_with_microphone} alt="Парень с микрофоном" className="block"/>
                     </div>
-                    <div className="mt-2.5 _text-14-20">
+                    <div className="mt-2.5 _text-14-20 sm:w-2/3 ">
                         <p>И, до того как прийти к нам, проходит стандартный путь - уроки на Ютюбе, случайные репетиторы, тетушки из ДК, дорогие абонементы в частных школах, караоке...</p>
 
                         <p className="mt-[30px]"><b>И сотни раз слышит одно и тоже:</b></p>
-                        <ul className="[&>li]:list-disc pl-4 mt-5">
-                            <li>сделай купол во рту</li>
-                            <li>надо дышать животом</li>
-                            <li>просто повтори за мной (а как, блин?)</li>
-                            <li>подай звук вперед!</li>
-                            <li>начнем с распевки!</li>
-                            <li>какой-то ты непонятливый...</li>
+                        <ul className="mx-auto xs:block [&>li]:list-disc pl-4 mt-5 xs:columns-2">
+                            <li>Сделай купол во рту</li>
+                            <li>Надо дышать животом</li>
+                            <li>Просто повтори за мной (а как, блин?)</li>
+                            <li>Подай звук вперед!</li>
+                            <li>Начнем с распевки!</li>
+                            <li>Какой-то ты непонятливый...</li>
                         </ul>
                         
                         <p className="mt-9">В обучении вокалу до сих пор происходит какая-то дичь: непонятные сравнения, бесцельные распевки, отсутствие внятной методики с четкими ориентирами.</p>

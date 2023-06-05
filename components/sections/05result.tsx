@@ -3,23 +3,27 @@ import boy_with_microphone from '../../public/images/boy_with_microphone.png'
 
 export default function Result(){
     return (
-        <section>
-            <div>
-                <p className="_p-bg mt-12">В результате - вы годами ходите по кругу, БЕЗ каких либо изменений:</p>
-            </div>
-            <div className="flex justify-start mt-5">
-                <div className="md:hidden w-1/3">
-                    <Image src={boy_with_microphone} alt="Парень с микрофоном"/>
+        <section className="_section">
+            <div className="_wrapper">
+                <div className="w-full">
+                    <p className="_p-bg mt-12">В результате - вы годами ходите по кругу, БЕЗ каких либо изменений:</p>
                 </div>
-                <div>
-                    <ul className="[&>li]:list-image-[url('/images/icons/shaka.svg')] list-inside">
-                        <li>Тихий, зажатый голос</li>
-                        <li>Неприятный тембр</li>
-                        <li>Пение «мимо нот»</li>
-                        <li>Напряжение в горле</li>
-                        <li>Насмешки и критика</li>
-                        <li>Страшно выступать</li>
-                    </ul>
+                <div className="flex justify-start">
+                    <div className="sm:hidden flex flex-col justify-center">
+                        <Image src={boy_with_microphone} alt="Парень с микрофоном" className="block"/>
+                    </div>
+                    <div className="mt-4 flex justify-center w-full">
+                        <div className="flex flex-col justify-center">
+                            <ul className="mx-auto flex flex-col sm:block h-full font-bold [&>li]:list-image-[url('/images/icons/shaka.svg')] sm:[&>li]:list-image-[url('/images/icons/shaka_big.svg')] list-inside _text-14-20 sm:columns-3">
+                                <li className="flex-grow sm:list-item">Тихий, зажатый голос</li>
+                                <li className="flex-grow sm:list-item">Неприятный тембр</li>
+                                <li className="flex-grow sm:list-item">Пение «мимо нот»</li>
+                                <li className="flex-grow sm:list-item">Напряжение в горле</li>
+                                <li className="flex-grow sm:list-item">Насмешки и критика</li>
+                                <li className="flex-grow sm:list-item">Страшно выступать</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

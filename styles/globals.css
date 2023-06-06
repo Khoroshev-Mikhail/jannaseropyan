@@ -6,7 +6,7 @@
     @apply w-full flex justify-center;
 }
 ._wrapper {
-    @apply px-3 w-full max-w-[1138px] maxw:px-0;
+    @apply px-3 w-full max-w-[1138px] maxw:px-0 _text-14-20;
 }
 ._h {
     @apply text-center font-bold px-4 sm:px-14 md:px-20 lg:px-28 maxw:px-40 text-[18px] sm:text-[20px] md:text-[24px] lg:text-[30px] maxw:text-[36px]
@@ -15,7 +15,7 @@
     @apply text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px]
 }
 ._text-bold-14-24{
-    @apply text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] maxw:text-[24px] font-bold
+    @apply text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] maxw:text-[24px] font-bold
 }
 ._p-bg{
     @apply px-8 py-2 bg-[url('../public/images/p_bg_small.png')] sm:bg-[url('../public/images/p_bg.png')] bg-cover bg-center  text-center text-_white font-bold
@@ -25,4 +25,7 @@
 }
 ._point{
     @apply text-center font-bold text-_white rounded-full bg-_pink absolute px-1.5 sm:px-2.5 md:px-3 lg:px-3.5 maxw:px-4 text-[14px] sm:text-[20px] md:text-[26px] lg:text-[30px] maxw:text-[36px]
+}
+._point-step{
+    @apply text-center block font-bold text-_white rounded-full bg-_pink absolute px-1.5 sm:px-2 md:px-2 lg:px-2.5 maxw:px-2.5 _text-14-20
 }

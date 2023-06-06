@@ -1,3 +1,4 @@
+import { AVRILE_SERIF } from "@/pages/_app";
 import Step1 from "../steps/step1";
 import Step2 from "../steps/step2";
 import Step3 from "../steps/step3";
@@ -6,7 +7,7 @@ import Step5 from "../steps/step5";
 import Step6 from "../steps/step6";
 import Step7 from "../steps/step7";
 
-// const steps = [
+// const STEPS = [
 //     { 
 //         number: "1",
 //         preview: "Постановка опоры и формирование звука",
@@ -47,17 +48,48 @@ import Step7 from "../steps/step7";
 
 export default function Steps(){
     return (
-        <section>
-            <h3>Эта формула и лежит в основе нашей программы «Петь Легко 3.0»</h3>
-            <p>Весь курс состоит из 7 последовательных ступеней</p>
-            <div>
-                <Step1 />
-                <Step2 />
-                <Step3 />
-                <Step4 />
-                <Step5 />
-                <Step6 />
-                <Step7 />
+        <section className="_section">
+            <div className="_wrapper mt-20 md:mt-40">
+                <h3 className={`${AVRILE_SERIF} _h`}>Эта формула и лежит в основе нашей программы «Петь Легко 3.0»</h3>
+                <p className="mt-10 md:mt-15 text-center _text-bold-14-24 text-_purple">Весь курс состоит из 7 последовательных ступеней</p>
+                <div className=" mt-4 md:mt-12 space-y-3.5 md:space-y-5 lg:space-y-10 maxw:space-y-12 ">
+                    {/* Здесь можно заМапить компонент Step с пропсами из STEPS - но для этого надо @npm i react-html-parser который весит 0.5мб
+                    А лишний вес добавлять не хочется. Но может вес не пойдет в билд если оставить его в devDependencies.
+                    А пока вобью все руками - но это тупо конечно. */}
+
+                    <div className="flex flex-col md:flex-row gap-x-5 lg:gap-x-10 maxw:gap-x-12 space-y-3.5 md:space-y-0">
+                        <div className="w-full md:w-1/2">
+                            <Step1 />
+                        </div>
+                        <div className="w-full md:w-1/2">
+                            <Step2 />
+                        </div>
+                    </div>
+                    <div className="flex flex-col md:flex-row gap-x-5 lg:gap-x-10 maxw:gap-x-12 space-y-3.5 md:space-y-0">
+                        <div className="w-full md:w-1/2">
+                            <Step3 />
+                        </div>
+                        <div className="w-full md:w-1/2">
+                            <Step4 />
+                        </div>
+                    </div>
+                    <div className="flex flex-col md:flex-row gap-x-5 lg:gap-x-10 maxw:gap-x-12 space-y-3.5 md:space-y-0">
+                        <div className="w-full md:w-1/2">
+                            <Step5 />
+                        </div>
+                        <div className="w-full md:w-1/2">
+                            <Step6 />
+                        </div>
+                    </div>  
+                    <div className="flex flex-col md:flex-row gap-x-5 lg:gap-x-10 maxw:gap-x-12 space-y-3.5 md:space-y-0">
+                        <div className="w-full md:w-1/2">
+                            <Step7 />
+                        </div>
+                        <div className="w-full md:w-1/2">
+                            
+                        </div>
+                    </div>  
+                </div>
             </div>
         </section>
     )

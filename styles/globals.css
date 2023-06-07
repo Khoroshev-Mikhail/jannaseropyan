@@ -17,6 +17,9 @@
 ._text-bold-14-24{
     @apply text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] maxw:text-[24px] font-bold
 }
+._text-14-24{
+    @apply text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] maxw:text-[24px] 
+}
 ._p-bg{
     @apply px-8 py-2 bg-[url('../public/images/p_bg_small.png')] sm:bg-[url('../public/images/p_bg.png')] bg-cover bg-center  text-center text-_white font-bold
 }
@@ -24,7 +27,7 @@
     @apply inline px-4 py-2 bg-[url('../public/images/p_bg_small.png')] bg-contain bg-center bg-no-repeat text-center text-_white font-bold
 }
 ._point{
-    @apply text-center font-bold text-_white rounded-full bg-_pink absolute px-1.5 sm:px-2.5 md:px-3 lg:px-3.5 maxw:px-4 text-[14px] sm:text-[20px] md:text-[26px] lg:text-[30px] maxw:text-[36px]
+    @apply text-center font-bold text-_white rounded-full bg-_pink absolute px-1.5 sm:px-2.5 md:px-3 lg:px-3.5 maxw:px-4 _text-14-20
 }
 ._point-step{
     @apply text-center block font-bold text-_white rounded-full bg-_pink absolute px-1.5 sm:px-2 md:px-2 lg:px-2.5 maxw:px-2.5 _text-14-20

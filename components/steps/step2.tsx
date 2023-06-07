@@ -7,7 +7,7 @@ export default function Step2(){
             <div className="absolute w-full flex justify-center -top-3 -mx-3">
                 <span className="_point-step">2</span>
             </div>
-            <div className="flex justify-between font-bold" onClick={()=>setIsOpen(!isOpen)}>
+            <div className="flex justify-between font-bold cursor-pointer" onClick={()=>setIsOpen(!isOpen)}>
                 <p className="block">Четкость произношения (артикуляция)</p>
                 <div className="flex flex-col justify-center">
                     <p className="text-_pink text-[20px] md:text-[24px]">{isOpen ? '-' : '+'}</p>

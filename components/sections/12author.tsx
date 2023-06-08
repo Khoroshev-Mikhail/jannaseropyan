@@ -43,7 +43,7 @@ export default function Author(){
                                 <Image src={moscow} alt="Москва" className="object-contain max-h-20"/>
                             </div>
                             <div className="flex flex-col justify-center">
-                                <Image src={cosmopoliten} alt="Космополитен" className="object-contain max-h-20"/>
+                                <Image src={cosmopoliten} alt="Космополитен" className="object-contain max-h-8 sm:max-h-10 md:max-h-16"/>
                             </div>
                             <div className="flex flex-col justify-center">
                                 <Image src={dniru} alt="ДниРу" className="object-contain  max-h-20"/>
@@ -51,13 +51,13 @@ export default function Author(){
                         </div>
                         <div className="flex justify-between gap-x-2 ">
                             <div className="flex flex-col justify-center">
-                                <Image src={mir} alt="Мир" className="object-contain max-h-20"/>
+                                <Image src={mir} alt="Мир" className="object-contain max-h-10 sm:max-h-14 md:max-h-18 lg:max-h-20"/>
                             </div>
                             <div className="flex flex-col justify-center">
-                                <Image src={tvc} alt="ТВц" className="object-contain  max-h-14"/>
+                                <Image src={tvc} alt="ТВц" className="object-contain  max-h-8 sm:max-h-10 md:max-h-14"/>
                             </div>
                             <div className="flex flex-col justify-center">
-                                <Image src={rentv} alt="РенТВ" className="object-contain  max-h-20"/>
+                                <Image src={rentv} alt="РенТВ" className="object-contain max-h-10 sm:max-h-14 md:max-h-18 lg:max-h-20"/>
                             </div>
                         </div>
                     </div>

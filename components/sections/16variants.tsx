@@ -30,9 +30,9 @@ export default function Variants(){
                             <p><s>30 000 руб</s></p>
                             <p className="_h-text">24 900 руб</p>
                             <p>(скидка 10% при оплате сразу)</p>
-                            <Button className="!mx-auto mt-6 md:mt-9 !w-full">Пройти курс!</Button>
+                            <Button className="!mx-auto !min-w-0  max-w-[283px] mt-6 md:mt-9 !w-full">Пройти курс!</Button>
                             <p className="mt-5 md:mt-[27px]"><b>от 1 990 руб/мес</b></p>
-                            <Button className="!w-full !mx-auto mt-2.5 !px-0 md:mt-5 bg-_white border-_purple border border-opacity-50 !text-_black">Пройти  в рассрочку</Button>
+                            <Button className="!w-full !mx-auto mt-2.5 !px-0 md:mt-5 bg-_white border-_purple border border-opacity-50 !text-_black !text-[14px] sm:!text-[16px] md:!text-[18px] lg:!text-[20px]">Пройти  в рассрочку</Button>
                         </div>
                     </div>
                 </div>
@@ -65,7 +65,7 @@ export default function Variants(){
                             <p><s>50 000 руб</s></p>
                             <p className="_h-text">37 900 руб</p>
                             <p>(скидка 10% при оплате сразу)</p>
-                            <Button className="!mx-auto mt-6 md:mt-9 !w-full">Пройти курс!</Button>
+                            <Button className="!mx-auto !min-w-0  max-w-[283px] mt-6 md:mt-9 !w-full">Пройти курс!</Button>
                             <p className="mt-5 md:mt-[27px]"><b>от 3 575 руб/мес</b></p>
                             <Button className="!w-full !mx-auto mt-2.5 !px-0 md:mt-5 bg-_white border-_purple border border-opacity-50 !text-_black">Пройти  в рассрочку</Button>
                         </div>
@@ -108,7 +108,7 @@ export default function Variants(){
                             <p><s>90 000 руб</s></p>
                             <p className="_h-text">68 900 руб</p>
                             <p>(скидка 10% при оплате сразу)</p>
-                            <Button className="!mx-auto mt-6 md:mt-9 !w-full">Пройти курс!</Button>
+                            <Button className="!mx-auto !min-w-0  max-w-[283px] mt-6 md:mt-9 !w-full">Пройти курс!</Button>
                             <p className="mt-5 md:mt-[27px]"><b>от 6 240 руб/мес</b></p>
                             <Button className="!w-full !mx-auto mt-2.5 !px-0 md:mt-5 bg-_white border-_purple border border-opacity-50 !text-_black">Пройти  в рассрочку</Button>
                         </div>

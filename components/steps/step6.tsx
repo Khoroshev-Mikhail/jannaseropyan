@@ -5,11 +5,13 @@ export default function Step6(){
     const [isOpen, setIsOpen] = useState<boolean>(false)
     return(
         <div className="relative flex flex-col border border-_pink rounded py-3 px-4 w-full">
-            <div className="absolute w-full flex justify-center -top-3 -mx-3">
+            <div className="absolute w-full flex justify-center -top-3 md:-top-[14px] lg:-top-4 -mx-3">
                 <span className="_point-step">6</span>
             </div>
             <div className="flex justify-between font-bold cursor-pointer" onClick={()=>setIsOpen(!isOpen)}>
-                <p className="block">Зарабатывай на выступлениях</p>
+                <div className="flex flex-col justify-center">
+                    <p className="block">Зарабатывай на выступлениях</p>
+                </div>
                 <div className="flex flex-col justify-center">
                     <p className="text-_pink text-[20px] md:text-[24px]">{isOpen ? '-' : '+'}</p>
                 </div>

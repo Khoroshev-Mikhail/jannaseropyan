@@ -12,36 +12,36 @@ export default function Stars(){
             <div className="_wrapper my-10 md:my-20">
                 
                 <h3 className={`${AVRILE_SERIF} _h`}>Звездные ученики нашей школы</h3>
-                <div className="grid grid-cols-6 sm:gap-x-4 md:gap-x-8 gap-y-8 md:gap-y-16  mt-10 md:mt-14">
-                    <div className="col-span-6 sm:col-span-3 md:col-span-2">
+                <div className="grid grid-cols-6 xs:gap-x-4 md:gap-x-8 gap-y-8 md:gap-y-16  mt-10 md:mt-14">
+                    <div className="col-span-6 xs:col-span-3 md:col-span-2">
                         <Image src={vitalii_abdulov} alt="Виталий Абдулов и Жанна Серопян" />
                         <p className="_text-bold-14-24 mt-4 md:mt-6">Виталий Абдулов</p>
-                        <p className="_text-14-20 text-ce sm:text-left mt-1.5">актер театра и кино («Молодежка», «Ранетки», «Марш Турецкого», «Кадетство», «Превосходство Борна»)</p>
+                        <p className="_text-14-20 text-ce xs:text-left mt-1.5">актер театра и кино («Молодежка», «Ранетки», «Марш Турецкого», «Кадетство», «Превосходство Борна»)</p>
                     </div>
-                    <div className="col-span-6 sm:col-span-3 md:col-span-2">
+                    <div className="col-span-6 xs:col-span-3 md:col-span-2">
                         <Image src={anastasiya_lisova} alt="Анастасия Лисова и Жанна Серопян" />
                         <p className="_text-bold-14-24 mt-4 md:mt-6">Анастасия Лисова</p>
-                        <p className="_text-14-20 text-ce sm:text-left mt-1.5">медийная личность, модель, Экс-участница «Дом-2»</p>
+                        <p className="_text-14-20 text-ce xs:text-left mt-1.5">медийная личность, модель, Экс-участница «Дом-2»</p>
                     </div>
-                    <div className="col-span-6 sm:col-span-3 md:col-span-2">
+                    <div className="col-span-6 xs:col-span-3 md:col-span-2">
                         <Image src={ekaterina_melnik} alt="Екатерина Мельник и Жанна Серопян" />
                         <p className="_text-bold-14-24 mt-4 md:mt-6">Екатерина Мельник</p>
-                        <p className="_text-14-20 text-ce sm:text-left mt-1.5">Актриса театра и кино («Физрук», «Интерны», «Шпион», «Воин»)</p>
+                        <p className="_text-14-20 text-ce xs:text-left mt-1.5">Актриса театра и кино («Физрук», «Интерны», «Шпион», «Воин»)</p>
                     </div>
-                    <div className="col-span-6 sm:col-span-3 md:col-span-2">
+                    <div className="col-span-6 xs:col-span-3 md:col-span-2">
                         <Image src={aliana_gobozova} alt="Алиана Гобозова (Устиненко) и Жанна Серопян" />
                         <p className="_text-bold-14-24 mt-4 md:mt-6">Алиана Гобозова (Устиненко)</p>
-                        <p className="_text-14-20 text-ce sm:text-left mt-1.5">Экс-участница «Дом-2»</p>
+                        <p className="_text-14-20 text-ce xs:text-left mt-1.5">Экс-участница «Дом-2»</p>
                     </div>
-                    <div className="col-span-6 sm:col-span-3 md:col-span-2">
+                    <div className="col-span-6 xs:col-span-3 md:col-span-2">
                         <Image src={tatiana_kiriluk} alt="Татьяна Кирилюк и Жанна Серопян" />
                         <p className="_text-bold-14-24 mt-4 md:mt-6">Татьяна Кирилюк</p>
-                        <p className="_text-14-20 text-ce sm:text-left mt-1.5">журналистка, телеведущая, экс-участница «Дом-2»</p>
+                        <p className="_text-14-20 text-ce xs:text-left mt-1.5">журналистка, телеведущая, экс-участница «Дом-2»</p>
                     </div>
-                    <div className="col-span-6 sm:col-span-3 md:col-span-2">
+                    <div className="col-span-6 xs:col-span-3 md:col-span-2">
                         <Image src={viktoria_klinkova} alt="Виктория Клинкова и Жанна Серопян" />
                         <p className="_text-bold-14-24 mt-4 md:mt-6">Виктория Клинкова</p>
-                        <p className="_text-14-20 text-ce sm:text-left mt-1.5">актриса кино (телесериал «Физрук», телеканал «Дисней»)</p>
+                        <p className="_text-14-20 text-ce xs:text-left mt-1.5">актриса кино (телесериал «Физрук», телеканал «Дисней»)</p>
                     </div>
                 </div>
             </div>

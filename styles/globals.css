@@ -15,7 +15,7 @@
     @apply text-center font-bold text-[18px] sm:text-[20px] md:text-[24px] lg:text-[30px] maxw:text-[36px]
 }
 ._text-14-20{
-    @apply text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px]
+    @apply text-[14px] sm:text-[16px] md:text-[18px] maxw:text-[20px]
 }
 ._text-bold-14-24{
     @apply text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] maxw:text-[24px] font-bold
@@ -37,4 +37,20 @@
 }
 ._point-step{
     @apply text-center block font-bold text-_white rounded-full bg-_pink absolute px-1.5 sm:px-2 md:px-2 lg:px-2.5 maxw:px-2.5 _text-14-20
+}
+
+._overflow-transition {
+    overflow: hidden;
+    position: relative;
+  }
+  
+._overflow-transition::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-image: linear-gradient(to bottom, transparent, rgba(255, 255, 255, 0.8));
+    pointer-events: none;
 }

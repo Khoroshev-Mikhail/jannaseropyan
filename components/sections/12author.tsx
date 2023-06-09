@@ -1,3 +1,4 @@
+import React from 'react';
 import Image from "next/image";
 import janna_seropyan_portrait from '../../public/images/janna_seropyan_portrait.png'
 import { AVRILE_SERIF } from "@/pages/_app";
@@ -8,6 +9,7 @@ import dniru from '../../public/images/dniru.png'
 import mir from '../../public/images/mir.png'
 import tvc from '../../public/images/tvc.png'
 import rentv from '../../public/images/rentv.png'
+import Author_slider from "./12_1author_slider";
 
 export default function Author(){
     return (
@@ -37,41 +39,41 @@ export default function Author(){
 
                 <div className="mt-8 md:mt-20 flex flex-col-reverse md:flex-row justify-between rounded-lg border border-_pink p-5 gap-x-10 gap-y-5">
                     
-                    <div className="flex flex-col justify-around min-h-full md:w-2/3">
+                    <div className="flex flex-col justify-around min-h-full md:w-7/12">
                         <div className="flex justify-between gap-x-10 w-full">
-                            <div className="flex flex-col justify-center">
-                                <Image src={moscow} alt="Москва" className="object-contain max-h-20"/>
+                            <div className="flex flex-col justify-center w-1/3">
+                                <Image src={moscow} alt="Москва" className="object-contain sm:max-h-10 md:max-h-14"/>
                             </div>
-                            <div className="flex flex-col justify-center">
-                                <Image src={cosmopoliten} alt="Космополитен" className="object-contain max-h-8 sm:max-h-10 md:max-h-16"/>
+                            <div className="flex flex-col justify-center w-1/3">
+                                <Image src={cosmopoliten} alt="Космополитен" className="object-contain max-h-6 sm:max-h-6 md:max-h-8"/>
                             </div>
-                            <div className="flex flex-col justify-center">
-                                <Image src={dniru} alt="ДниРу" className="object-contain  max-h-20"/>
+                            <div className="flex flex-col justify-center w-1/3">
+                                <Image src={dniru} alt="ДниРу" className="object-contain  sm:max-h-6 md:max-h-10"/>
                             </div>
                         </div>
-                        <div className="flex justify-between gap-x-2 ">
-                            <div className="flex flex-col justify-center">
-                                <Image src={mir} alt="Мир" className="object-contain max-h-10 sm:max-h-14 md:max-h-18 lg:max-h-20"/>
+                        <div className="flex justify-between gap-x-2 w-full">
+                            <div className="flex flex-col justify-center w-1/3">
+                                <Image src={mir} alt="Мир" className="object-contain max-h-10 sm:max-h-12 md:max-h-16 lg:max-h-16"/>
                             </div>
-                            <div className="flex flex-col justify-center">
-                                <Image src={tvc} alt="ТВц" className="object-contain  max-h-8 sm:max-h-10 md:max-h-14"/>
+                            <div className="flex flex-col justify-center w-1/3">
+                                <Image src={tvc} alt="ТВц" className="object-contain  max-h-6 sm:max-h-8 md:max-h-10"/>
                             </div>
-                            <div className="flex flex-col justify-center">
-                                <Image src={rentv} alt="РенТВ" className="object-contain max-h-10 sm:max-h-14 md:max-h-18 lg:max-h-20"/>
+                            <div className="flex flex-col justify-center w-1/3">
+                                <Image src={rentv} alt="РенТВ" className="object-contain max-h-10 sm:max-h-12 md:max-h-16 lg:max-h-16"/>
                             </div>
                         </div>
                     </div>
                     
-                    <div className="md:w-1/3 flex flex-col justify-center">
+                    <div className="md:w-5/12 flex flex-col justify-center">
                         <p className="block text-center md:text-left bg-_mainbg rounded-lg _text-14-20 font-bold p-4">
                             Телепередачи и статьи о Жанне часто появляются в ведущих СМИ - Москва24, Рен-ТВ, ТВ-центр, Cosmopolitan, МИР, Дни.ру
                         </p>
                     </div>
                 </div>
 
-                <div>
-                    slider
-                </div>
+                
+                <Author_slider />
+                
             </div>
         </section>
     )

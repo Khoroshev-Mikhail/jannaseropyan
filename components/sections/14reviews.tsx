@@ -1,5 +1,7 @@
 import { AVRILE_SERIF } from "@/pages/_app";
 import Button from "../ui/Button";
+import Reviews_slider from "./14_1reviews_slider";
+
 
 export default function Reviews(){
     return (
@@ -11,9 +13,9 @@ export default function Reviews(){
                     <br /><b>11 000 человек</b>
                 </p>
                 <p className="mt-7 md:mt-10 text-center">Результаты "До и После" говорят сами за себя:</p>
-                <div className="text-center">
-                    slider
-                </div>
+
+                <Reviews_slider />
+
                 <Button className="mt-10 md:mt-20 !mx-auto">Хочу так же!</Button>
             </div>
         </section>

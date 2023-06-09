@@ -9,12 +9,12 @@ export default function Result(){
                     <p className="_p-bg mt-12">В результате - вы годами ходите по кругу, БЕЗ каких либо изменений:</p>
                 </div>
                 <div className="flex justify-start">
-                    <div className="sm:hidden flex flex-col justify-center">
+                    <div className="sm:hidden flex flex-col justify-center w-1/3 sm:w-full">
                         <Image src={boy_with_microphone} alt="Парень с микрофоном" className="block"/>
                     </div>
-                    <div className="mt-4 flex justify-center w-full">
-                        <div className="flex flex-col justify-center">
-                            <ul className="mx-auto flex flex-col sm:block h-full font-bold [&>li]:list-image-[url('/images/icons/shaka.svg')] sm:[&>li]:list-image-[url('/images/icons/shaka_big.svg')] list-inside _text-14-20 sm:columns-3">
+                    <div className="pl-4 sm:pl-0 mt-4 flex sm:justify-center w-2/3 sm:w-full">
+                        <div className="flex flex-col justify-start sm:justify-center">
+                            <ul className="sm:mx-auto flex flex-col sm:block h-full font-bold [&>li]:list-image-[url('/images/icons/shaka.svg')] sm:[&>li]:list-image-[url('/images/icons/shaka_big.svg')] list-inside _text-14-20 sm:columns-3">
                                 <li className="flex-grow sm:list-item">Тихий, зажатый голос</li>
                                 <li className="flex-grow sm:list-item">Неприятный тембр</li>
                                 <li className="flex-grow sm:list-item">Пение «мимо нот»</li>

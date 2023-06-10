@@ -7,7 +7,7 @@ import vk from '../../public/images/icons/vk.svg'
 import menu_burger from '../../public/images/icons/menu_burger.svg'
 import { useState } from "react";
 import Link from "next/link";
-import { FACEBOOK_LINK, TG_LINK, VK_LINK, WHATSAPP_LINK } from "@/lib/consts";
+import { TG_LINK, VK_LINK, WHATSAPP_LINK } from "@/lib/consts";
 
 
 
@@ -28,11 +28,11 @@ export default function Nav(){
                     <div className="flex flex-col justify-center">
                         <p className="block text-[12px] sm:text-[14px] md:text-[14px] lg:text-[18px]">Напишите нам:</p>
                     </div>
-                    <div className="flex flex-col justify-center">
+                    {/* <div className="flex flex-col justify-center">
                         <Link href={FACEBOOK_LINK}>
                             <Image src={facebook} alt="facebook" className="block"/>
                         </Link>
-                    </div>
+                    </div> */}
                     <div className="flex flex-col justify-center">
                         <Link href={TG_LINK}>
                             <Image src={telegram} alt="telegram" className="block"/>

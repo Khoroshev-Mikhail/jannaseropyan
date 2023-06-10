@@ -1,9 +1,10 @@
 import Image from "next/image";
 import whatsapp from '../../public/images/icons/whatsapp.svg'
 import vk from '../../public/images/icons/vk.svg'
-import viber from '../../public/images/icons/viber.svg'
-import messenger from '../../public/images/icons/messenger.svg'
-import { VK_LINK, WHATSAPP_LINK } from "@/lib/consts";
+import telegram from '../../public/images/icons/telegram.svg'
+// import viber from '../../public/images/icons/viber.svg'
+// import messenger from '../../public/images/icons/messenger.svg'
+import { TG_LINK, VK_LINK, WHATSAPP_LINK } from "@/lib/consts";
 import Link from "next/link";
 
 export default function Footer(){
@@ -28,15 +29,20 @@ export default function Footer(){
                             </Link>
                         </div>
                         <div className="flex flex-col justify-center">
-                            {/* <Link href={}> */}
+                            <Link href={TG_LINK}>
+                                <Image src={telegram} alt="telegram" className="block"/>
+                            </Link>
+                        </div>
+                        {/* <div className="flex flex-col justify-center">
+                            <Link href={}>
                                 <Image src={viber} alt="viber"/>
-                            {/* </Link> */}
+                            </Link>
                         </div>
                         <div className="flex flex-col justify-center">
-                            {/* <Link href={}> */}
+                            <Link href={}>
                                 <Image src={messenger} alt="messenger" />
-                            {/* </Link> */}
-                        </div>
+                            </Link>
+                        </div> */}
                     </div>
                 </div>
             </div>

@@ -1,6 +1,4 @@
 import React from 'react';
-import Image, { StaticImageData } from "next/image";
-import play from '../../public/images/icons/arrow_play.svg'
 
 export default function Author_slide( { name, src }: { name: string, src: string} ){
     return(

@@ -31,7 +31,6 @@ export default function Home() {
             <Reason/>
             <Mistakes/>
             <Formula/> 
-            {/* в формуле есть ошибка изза чего при уменьшении ширины дисплея 340 - 320 появляется белая полоса справа */}
             <Because/>
             <Steps/>
             <Author/>

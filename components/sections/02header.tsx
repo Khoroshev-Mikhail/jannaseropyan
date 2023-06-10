@@ -1,6 +1,4 @@
 import { AVRILE_SERIF } from "@/pages/_app";
-import Image from "next/image";
-import janna_seropyan from '../../public/images/janna_seropyan.png'
 import janna_seropyan_desktop from '../../public/images/janna_seropyan_desktop.png'
 import janna_seropyan_mobile from '../../public/images/janna_seropyan_mobile.png'
 import Button from "../ui/Button";
@@ -26,9 +24,11 @@ export default function Header(){
                         </ul>
                     </div>
                     <div>
-                        <Button className="mt-8 md:mt-16">
-                            Выбрать свой курс
-                        </Button>
+                        <a href="#payment">
+                            <Button className="mt-8 md:mt-16">
+                                Выбрать свой курс
+                            </Button>
+                        </a>
                     </div>
                 </div>
                 <div className="md:absolute md:right-[-110px] maxw:right-[-140px] md:top-0 h-full w-full flex justify-end mt-6 md:mt-0">

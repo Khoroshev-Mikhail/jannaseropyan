@@ -3,6 +3,8 @@ import whatsapp from '../../public/images/icons/whatsapp.svg'
 import vk from '../../public/images/icons/vk.svg'
 import viber from '../../public/images/icons/viber.svg'
 import messenger from '../../public/images/icons/messenger.svg'
+import { VK_LINK, WHATSAPP_LINK } from "@/lib/consts";
+import Link from "next/link";
 
 export default function Footer(){
     return (
@@ -16,16 +18,24 @@ export default function Footer(){
 
                     <div className="mt-5 md:mt-10 flex justify-center gap-x-1 md:gap-x-3 lg:gap-x-6 maxw:gap-x-7">
                         <div className="flex flex-col justify-center">
-                            <Image src={whatsapp} alt="whatsapp"/>
+                            <Link href={WHATSAPP_LINK}>
+                                <Image src={whatsapp} alt="whatsapp"/>
+                            </Link>
                         </div>
                         <div className="flex flex-col justify-center">
-                            <Image src={vk} alt="vk"/>
+                            <Link href={VK_LINK}>
+                                <Image src={vk} alt="vk"/>
+                            </Link>
                         </div>
                         <div className="flex flex-col justify-center">
-                            <Image src={viber} alt="viber"/>
+                            {/* <Link href={}> */}
+                                <Image src={viber} alt="viber"/>
+                            {/* </Link> */}
                         </div>
                         <div className="flex flex-col justify-center">
-                            <Image src={messenger} alt="messenger" />
+                            {/* <Link href={}> */}
+                                <Image src={messenger} alt="messenger" />
+                            {/* </Link> */}
                         </div>
                     </div>
                 </div>

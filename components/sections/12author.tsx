@@ -42,24 +42,24 @@ export default function Author(){
                     <div className="flex flex-col justify-around min-h-full md:w-7/12">
                         <div className="flex justify-between gap-x-10 w-full">
                             <div className="flex flex-col justify-center w-1/3">
-                                <Image src={moscow} alt="Москва" className="object-contain sm:max-h-10 md:max-h-14"/>
+                                <Image src={moscow} alt="Москва" className="object-contain w-auto sm:max-h-10 md:max-h-14"/>
                             </div>
                             <div className="flex flex-col justify-center w-1/3">
-                                <Image src={cosmopoliten} alt="Космополитен" className="object-contain max-h-6 sm:max-h-6 md:max-h-8"/>
+                                <Image src={cosmopoliten} alt="Космополитен" className="object-contain w-auto max-h-6 sm:max-h-6 md:max-h-8"/>
                             </div>
                             <div className="flex flex-col justify-center w-1/3">
-                                <Image src={dniru} alt="ДниРу" className="object-contain  sm:max-h-6 md:max-h-10"/>
+                                <Image src={dniru} alt="ДниРу" className="object-contain w-auto sm:max-h-6 md:max-h-10"/>
                             </div>
                         </div>
                         <div className="flex justify-between gap-x-2 w-full">
                             <div className="flex flex-col justify-center w-1/3">
-                                <Image src={mir} alt="Мир" className="object-contain max-h-10 sm:max-h-12 md:max-h-16 lg:max-h-16"/>
+                                <Image src={mir} alt="Мир" className="object-contain w-auto max-h-10 sm:max-h-12 md:max-h-16 lg:max-h-16"/>
                             </div>
                             <div className="flex flex-col justify-center w-1/3">
-                                <Image src={tvc} alt="ТВц" className="object-contain  max-h-6 sm:max-h-8 md:max-h-10"/>
+                                <Image src={tvc} alt="ТВц" className="object-contain w-auto max-h-6 sm:max-h-8 md:max-h-10"/>
                             </div>
                             <div className="flex flex-col justify-center w-1/3">
-                                <Image src={rentv} alt="РенТВ" className="object-contain max-h-10 sm:max-h-12 md:max-h-16 lg:max-h-16"/>
+                                <Image src={rentv} alt="РенТВ" className="object-contain w-auto max-h-10 sm:max-h-12 md:max-h-16 lg:max-h-16"/>
                             </div>
                         </div>
                     </div>

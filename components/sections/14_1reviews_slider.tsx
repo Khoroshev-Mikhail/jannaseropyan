@@ -105,14 +105,14 @@ export default function Reviews_slider(){
                 `}
             </style> 
 
-            <div className="absolute z-50 left-[40%] sm:left-0 bottom-8 sm:h-full sm:flex sm:flex-col sm:justify-center">
+            <div className="absolute z-50 left-[38%] sm:left-0 bottom-9 sm:h-full sm:flex sm:flex-col sm:justify-center">
                 <button id="PREV" className="block">
                     <img src={left.src} alt="<"/>
                 </button>
             </div>
 
             <Swiper
-                modules={[Navigation, Pagination, Scrollbar, A11y]}
+                modules={[Navigation, Pagination]}
                 spaceBetween={10}
                 slidesPerView={1} 
                 breakpoints={{
@@ -123,20 +123,19 @@ export default function Reviews_slider(){
                         slidesPerView: 3,
                     },
                 }}
-                slidesPerGroup={1}
-                navigation={{ prevEl: '#PREV', nextEl: '#NEXT' }}
+                navigation={{ nextEl: '#NEXT', prevEl: '#PREV' }}
                 pagination={{ clickable: true }}
             >
                 {REVIEWS.map((el, i) => {
                     return (
-                        <SwiperSlide key={i} className='pb-[80px] sm:pb-[50px]'>
+                        <SwiperSlide key={i} virtualIndex={i} className='pb-[80px] sm:pb-[50px]'>
                             <Reviews_slide {...el} />
                         </SwiperSlide>
                     )
                 })}
             </Swiper>
             
-            <div className="absolute z-50 right-[40%] sm:right-0 bottom-8 sm:h-full sm:flex sm:flex-col sm:justify-center">
+            <div className="absolute z-50 right-[38%] sm:right-0 bottom-9 sm:h-full sm:flex sm:flex-col sm:justify-center">
                 <button id='NEXT' className='block'>
                     <img src={right.src} alt=">" className=''/>
                 </button>

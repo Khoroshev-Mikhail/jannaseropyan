@@ -6,6 +6,8 @@ import whatsapp from '../../public/images/icons/whatsapp.svg'
 import vk from '../../public/images/icons/vk.svg'
 import menu_burger from '../../public/images/icons/menu_burger.svg'
 import { useState } from "react";
+import Link from "next/link";
+import { FACEBOOK_LINK, TG_LINK, VK_LINK, WHATSAPP_LINK } from "@/lib/consts";
 
 
 
@@ -27,16 +29,24 @@ export default function Nav(){
                         <p className="block text-[12px] sm:text-[14px] md:text-[14px] lg:text-[18px]">Напишите нам:</p>
                     </div>
                     <div className="flex flex-col justify-center">
-                        <Image src={facebook} alt="facebook" className="block"/>
+                        <Link href={FACEBOOK_LINK}>
+                            <Image src={facebook} alt="facebook" className="block"/>
+                        </Link>
                     </div>
                     <div className="flex flex-col justify-center">
-                        <Image src={telegram} alt="telegram" className="block"/>
+                        <Link href={TG_LINK}>
+                            <Image src={telegram} alt="telegram" className="block"/>
+                        </Link>
                     </div>
                     <div className="flex flex-col justify-center">
-                        <Image src={whatsapp} alt="whatsapp" className="block"/>
+                        <Link href={WHATSAPP_LINK}>
+                            <Image src={whatsapp} alt="whatsapp" className="block"/>
+                        </Link>
                     </div>
                     <div className="flex flex-col justify-center">
-                        <Image src={vk} alt="vk" className="block"/>
+                        <Link href={VK_LINK}>
+                            <Image src={vk} alt="vk" className="block"/>
+                        </Link>
                     </div>
                 </div>
 

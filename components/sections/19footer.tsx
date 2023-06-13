@@ -14,7 +14,7 @@ export default function Footer(){
                 <div className="flex flex-col text-center">
                     <p className="_text-bold-14-24">Остались вопросы?</p>
                     <p className="mt-2.5 md:mt-7 md:w-2/3 mx-auto">Позвоните нам или напишите в мессенджер, мы свяжемся с вами в ближайшее время</p>
-                    <p className="mt-5 md:mt-12 _h-text">8 800 200 24 04</p>
+                    <p className="mt-5 md:mt-12 _h-text"><a href="tel:88002002404">8 800 200 24 04</a></p>
                     <p>(Звонок бесплатный со всех телефонов рф)</p>
 
                     <div className="mt-5 md:mt-10 flex justify-center gap-x-1 md:gap-x-3 lg:gap-x-6 maxw:gap-x-7">

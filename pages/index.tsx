@@ -9,15 +9,15 @@ import Mistakes from "@/components/sections/08mistakes";
 import Formula from "@/components/sections/09formula";
 import Because from "@/components/sections/10because";
 import Steps from "@/components/sections/11steps";
-import Author from "@/components/sections/12author";
+import Author from "@/components/sections/12_0author";
 import Experience from "@/components/sections/13experiece";
-import Reviews from "@/components/sections/14reviews";
+import Reviews from "@/components/sections/14_0reviews";
 import Stars from "@/components/sections/15stars";
 import Variants from "@/components/sections/16variants";
 import Online from "@/components/sections/17online";
 import Faq from "@/components/sections/18faq";
 import Footer from "@/components/sections/19footer";
-
+import Fixed from "@/components/ui/Fixed";
 
 export default function Home() {
     return (

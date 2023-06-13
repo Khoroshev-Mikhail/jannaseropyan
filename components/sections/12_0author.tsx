@@ -9,7 +9,7 @@ import dniru from '../../public/images/dniru.png'
 import mir from '../../public/images/mir.png'
 import tvc from '../../public/images/tvc.png'
 import rentv from '../../public/images/rentv.png'
-import Author_slider from "./12_1author_slider";
+import Author_slider from "./12_1slider";
 
 export default function Author(){
     return (

@@ -25,7 +25,11 @@ export default function Online(){
                             <li><span>Занимаетесь из любого места, с любого устройства.</span></li>
                         </ul>
                         <p className="_text-bold-14-24 text-_purple mt-4">А главное - вы не просто ходите развлекаться, а двигаетесь по системе, отслеживаете результаты и меняете голос.</p>
-                        <Button className="!mx-auto px-16 mt-10 md:mt-20">Начать!</Button>
+                        <a href="#payment">
+                            <Button className="!mx-auto px-16 mt-10 md:mt-20">
+                                Начать!
+                            </Button>
+                        </a>
                     </div>
                 </div>
 

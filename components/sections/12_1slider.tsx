@@ -23,6 +23,7 @@ const VIDEOS = [
 ]
 
 export default function Author_slider(){
+    
     return(
         <div className="relative mt-10 md:mt-[90px] flex justify-between px-9 ">
             
@@ -61,12 +62,13 @@ export default function Author_slider(){
             </style> 
 
             <div className="absolute z-50 left-0 h-[calc(100%-20px)] sm:h-[calc(100%-30px)]  md:h-[calc(100%-80px)] flex flex-col justify-center">
-                <button id="PREV" className="block">
+                <button id="_PREV_SMI_SLIDER" className="block">
                     <img src={left.src} alt="<"/>
                 </button>
             </div>
 
             <Swiper
+                id="smi_slider"
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
                 spaceBetween={40}
                 slidesPerView={1} 
@@ -76,7 +78,7 @@ export default function Author_slider(){
                     },
                 }}
                 slidesPerGroup={1}
-                navigation={{ prevEl: '#PREV', nextEl: '#NEXT' }}
+                navigation={{ prevEl: '#_PREV_SMI_SLIDER', nextEl: '#_NEXT_SMI_SLIDER' }}
                 pagination={{ clickable: true }}
             >
                 {VIDEOS.map((el, i) => {
@@ -89,7 +91,7 @@ export default function Author_slider(){
             </Swiper>
             
             <div className="absolute z-50 right-0 h-[calc(100%-20px)] sm:h-[calc(100%-30px)]  md:h-[calc(100%-80px)] flex flex-col justify-center">
-                <button id='NEXT' className='block'>
+                <button id='_NEXT_SMI_SLIDER' className='block'>
                     <img src={right.src} alt=">" className=''/>
                 </button>
             </div>

@@ -55,11 +55,12 @@ export default function Nav(){
                 {isOpen && 
                     <div onClick={()=>setIsOpen(false)} className="absolute z-30 right-0 p-3 rounded-l flex flex-col w-1/2 h-auto bg-_white">
                         <p className="block text-center">Напишите нам:</p>
-                        <div className="flex justify-around p-4">
+                        {/* <div className="flex justify-around p-4">
                             <Image src={facebook} alt="facebook" className="block"/>
                             <Image src={telegram} alt="telegram" className="block"/>
-                        </div>
+                        </div> */}
                         <div className="flex justify-around p-4">
+                            <Image src={telegram} alt="telegram" className="block"/>
                             <Image src={whatsapp} alt="whatsapp" className="block"/>
                             <Image src={vk} alt="vk" className="block"/>
                         </div>

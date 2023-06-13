@@ -1,7 +1,10 @@
 import Image, { StaticImageData } from "next/image";
 import play from '../../public/images/icons/arrow_play.svg'
+import { Dispatch, SetStateAction, useState } from "react";
+import Fixed from "./Fixed";
 
-export default function Reviews_slide( { photo, name, review }: { photo: StaticImageData, name: string, review: string} ){
+export default function Reviews_slide( { photo, name, src, review, toggle }: { photo: StaticImageData, name: string, src: string, review: string, toggle: (src: string) => void } ){
+
     return(
         <div className="h-[570px] xs:h-[500px] md:h-[620px] px-6 pb-10 flex flex-col w-full border border-_pink rounded-md">
             <div className="mt-[30px] xs:mt-[32px] sm:mt-[37px] md:mt-[40px] rounded-full overflow-hidden flex justify-center w-full min-h-[95px] xs:min-h-[105px] sm:min-h-[120px] md:min-h-[130px]">
@@ -14,11 +17,12 @@ export default function Reviews_slide( { photo, name, review }: { photo: StaticI
                 <p>{review}</p>
             </div>
             <div className="flex justify-center">
-                <button className="flex justify-center border border-_purple border-opacity-50 rounded-[8px/30px] _text-14-20 font-bold py-1 sm:py-2 md:py-3 px-2">
+                <button onClick={()=>toggle(src)} className="flex justify-center border border-_purple border-opacity-50 rounded-[8px/30px] _text-14-20 font-bold py-1 sm:py-2 md:py-3 px-2">
                     Смотреть результат
                     <Image src={play} alt="play" className="block ml-1"/>
                 </button>
             </div>
+
         </div>
     )
 }

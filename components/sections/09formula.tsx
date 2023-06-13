@@ -29,7 +29,7 @@ export default function Formula(){
 
                     <p className="_text-bold-14-24 text-_purple text-center">Формула красивого голоса - это:</p>
 
-                    <div className="flex justify-center mt-10 sm:mt-12 md:mt-14 lg:mt-16 maxw:mt-18 ">
+                    <div className="flex justify-center mt-10 sm:mt-14 md:mt-16 lg:mt-20 maxw:mt-24 ">
                         <div className="w-1/2">
                             <div className="relative w-full pb-[100%] rounded-full border border-_pink ">
 
@@ -42,7 +42,7 @@ export default function Formula(){
                                 <div className="_point right-[calc(50%-10px)] -top-[12px] sm:right-[calc(50%-15px)] sm:-top-[15px] md:right-[calc(50%-20px)] md:-top-[20px] lg:right-[calc(50%-22px)] lg:-top-[22px] maxw:right-[calc(50%-27px)] maxw:-top-[27px]">
                                     <div className="relative ">
                                         1
-                                        <div className="_text-14-20 font-normal xs:font-bold absolute z-0 text-_black -top-5 -left-4 sm:-top-7 sm:-left-6 md:-top-9 md:-left-6 lg:-top-11 lg:-left-6 maxw:-top-13 max:-left-13">
+                                        <div className="_text-14-20 font-normal xs:font-bold absolute z-0 text-_black -top-5 -left-5 sm:-top-7 sm:-left-6 md:-top-9 md:-left-6 lg:-top-11 lg:-left-6 maxw:-top-13 max:-left-13">
                                             Опора
                                         </div>
                                     </div>
@@ -96,7 +96,11 @@ export default function Formula(){
                             </div>
                         </div>
                     </div>
-                    <Button className="mt-20 md:mt-30 lg:mt-40 md:mx-auto">Прокачать голос по формуле</Button>
+                    <a href="#payment">
+                        <Button className="mt-20 md:mt-30 lg:mt-40 md:mx-auto">
+                            Прокачать голос по формуле
+                        </Button>
+                    </a>
                 </div>
 
             </div>

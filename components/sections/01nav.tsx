@@ -60,9 +60,15 @@ export default function Nav(){
                             <Image src={telegram} alt="telegram" className="block"/>
                         </div> */}
                         <div className="flex justify-around p-4">
-                            <Image src={telegram} alt="telegram" className="block"/>
-                            <Image src={whatsapp} alt="whatsapp" className="block"/>
-                            <Image src={vk} alt="vk" className="block"/>
+                            <Link href={TG_LINK}>
+                                <Image src={telegram} alt="telegram" className="block"/>
+                            </Link>
+                            <Link href={WHATSAPP_LINK}>
+                                <Image src={whatsapp} alt="whatsapp" className="block"/>
+                            </Link>
+                            <Link href={VK_LINK}>
+                                <Image src={vk} alt="vk" className="block"/>
+                            </Link>
                         </div>
                     </div>
                 }

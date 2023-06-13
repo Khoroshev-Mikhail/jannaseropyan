@@ -31,12 +31,8 @@ export default function Header(){
                         </a>
                     </div>
                 </div>
-                <div className="md:absolute md:right-[-110px] maxw:right-[-140px] md:top-0 h-full w-full flex justify-end mt-6 md:mt-0">
-                    <picture className="h-full object-cover">
-                        <source srcSet={janna_seropyan_desktop.src} media="(min-width: 768px)" />
-                        <img src={janna_seropyan_mobile.src} alt="Жанна Серопян" className="object-cover h-full"/>
-                    </picture>
-                    {/* <Image src={janna_seropyan} alt="Жанна Серопян" /> */}
+                <div className="md:absolute md:right-[-110]px] maxw:right-[-140px] md:top-0 h-full flex justify-end text-right mt-6 md:mt-0">
+                    <img src={janna_seropyan_desktop.src} alt="Жанна Серопян" className="object-cover h-full"/>
                 </div>
             </div>
         </section>

@@ -12,7 +12,7 @@ export default function Variants(){
             <div className="flex flex-col w-full md:flex-row mt-10 md:mt-14 md:py-10 ">
 
                 {/* Первый вариант */}
-                <div className="relative px-5 border border-_pink rounded-md bg-_mainbg  bg-opacity-50 py-6 md:py-10 md:w-[32%]">
+                <div className="relative px-5 md:px-1 lg:px-5 border border-_pink rounded-md bg-_mainbg  bg-opacity-50 py-6 md:py-10 md:w-[32%]">
                     <div>
                         <h5 className="_h-text">СТАРТОВЫЙ</h5>
                         <ul className="[&>li]:list-disc list-inside mt-4 [&>li]:mt-2.5 md:mt-10">
@@ -29,10 +29,10 @@ export default function Variants(){
                         </div>
                     </div>
                     <div className="mt-14 flex justify-center w-full md:absolute md:bottom-5 md:left-0 md:mt-0">
-                        <div className="[&>p]:text-center w-full md:px-10">
+                        <div className="[&>p]:text-center w-full md:px-2 lg:px-10">
                             <p><s>30 000 руб</s></p>
                             <p className="_h-text">24 900 руб</p>
-                            <p className="-mx-2">(скидка 10% при оплате сразу)</p>
+                            <p className="-mx-2 text-[14px]">(скидка 10% при оплате сразу)</p>
                             <Link href={VARIANT_1_LINK}>
                                 <Button className="!mx-auto !min-w-0 max-w-[283px] mt-6 md:mt-9 !w-full">
                                     Пройти курс!
@@ -49,7 +49,7 @@ export default function Variants(){
                 </div>
 
                 {/* Второй вариант */}
-                <div className="relative mt-10 px-8 -mx-[1px] border border-_pink rounded-md md:-my-10 py-6 md:w-[36%] md:py-20">
+                <div className="relative mt-10 px-5 md:px-1 lg:px-5 -mx-[1px] border border-_pink rounded-md md:-my-10 py-6 md:w-[36%] md:py-20">
                     <div>
                         <h5 className="_h-text">ОСНОВНОЙ</h5>
                         <ul className="[&>li]:list-disc list-inside mt-4 md:mt-10 [&>li]:mt-2.5">
@@ -72,10 +72,10 @@ export default function Variants(){
                         </div>
                     </div>
                     <div className="md:absolute md:bottom-[60px] mt-14 md:mt-0 md:left-0 flex justify-center w-full">
-                        <div className="[&>p]:text-center w-full md:px-10">
+                        <div className="[&>p]:text-center w-full md:px-2 lg:px-10">
                             <p><s>50 000 руб</s></p>
                             <p className="_h-text">37 900 руб</p>
-                            <p>(скидка 10% при оплате сразу)</p>
+                            <p className="-mx-1 text-[14px]">(скидка 10% при оплате сразу)</p>
                             <Link href={VARIANT_2_LINK}>
                                 <Button className="!mx-auto !min-w-0  max-w-[283px] mt-6 md:mt-9 !w-full">
                                     Пройти курс!
@@ -92,7 +92,7 @@ export default function Variants(){
                 </div>
 
                 {/* Третий вариант */}
-                <div className="relative mt-10 border border-_pink rounded-md bg-_mainbg bg-opacity-50 px-5  py-6 md:pb-[400px] md:py-10 md:mt-0 md:w-[32%]">
+                <div className="relative mt-10 border border-_pink rounded-md bg-_mainbg bg-opacity-50 px-5 md:px-1 lg:px-5 py-6 md:pb-[400px] md:py-10 md:mt-0 md:w-[32%]">
                     <div>
                         <h5 className="_h-text">МАКСИМАЛЬНЫЙ</h5>
                         <ul className="[&>li]:list-disc list-inside mt-4 md:mt-10 [&>li]:mt-2.5">
@@ -123,10 +123,10 @@ export default function Variants(){
                     </div>
                     
                     <div className="md:absolute md:bottom-5 md:left-0 mt-14 md:mt-0 flex justify-center w-full">
-                        <div className="[&>p]:text-center w-full md:px-10">
+                        <div className="[&>p]:text-center w-full md:px-2 lg:px-10">
                             <p><s>90 000 руб</s></p>
                             <p className="_h-text">68 900 руб</p>
-                            <p className="-mx-2">(скидка 10% при оплате сразу)</p>
+                            <p className="-mx-2 text-[14px]">(скидка 10% при оплате сразу)</p>
                             <Link href={VARIANT_3_LINK}>
                                 <Button className="!mx-auto !min-w-0 max-w-[283px] mt-6 md:mt-9 !w-full">
                                     Пройти курс!

@@ -16,7 +16,7 @@ export default function Header(){
                         </h2>
                     </div>
                     <div className="flex justify-center md:justify-start pl-4">
-                        <ul className="block mt-10 md:mt-10 text-sm [&>li]:list-disc">
+                        <ul className="block mt-10 md:mt-10 text-sm [&>li]:list-disc _text-14-24">
                             <li>Онлайн - из любой точки мира</li>
                             <li>С личным преподавателем</li>
                             <li>Первый месяц - бесплатно</li>

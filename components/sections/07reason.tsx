@@ -32,7 +32,7 @@ export default function Reason(){
                         </ul>
                     </div>
                     <div>
-                        <p className="mt-9">Много всего, правда? </p>
+                        <p className="mt-9 font-bold">Много всего, правда? </p>
                     </div>
                 </div>
             </div>

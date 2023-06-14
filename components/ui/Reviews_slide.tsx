@@ -6,7 +6,7 @@ import Fixed from "./Fixed";
 export default function Reviews_slide( { photo, name, src, review, toggle }: { photo: StaticImageData, name: string, src: string, review: string, toggle: (src: string) => void } ){
 
     return(
-        <div className="h-[570px] px-6 pb-10 flex flex-col w-full border border-_pink rounded-md xs:h-[500px] md:h-[620px]">
+        <div className="h-[570px] px-3 xs:px-6 pb-10 flex flex-col w-full border border-_pink rounded-md xs:h-[500px] md:h-[620px]">
             <div className="mt-[30px] rounded-full overflow-hidden flex justify-center w-full min-h-[95px] xs:mt-[32px] xs:min-h-[105px] sm:min-h-[120px] sm:mt-[37px] md:min-h-[130px] md:mt-[40px]">
                 <Image src={photo} alt={name} className="w-[95px] h-[95px] xs:w-[130px] xs:h-[130px] sm:w-[120px] sm:h-[120px] md:w-[130px] md:h-[130px]"/>
             </div>

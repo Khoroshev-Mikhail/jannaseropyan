@@ -14,7 +14,7 @@ export default function Formula(){
                     </h3>
                     <p className="mt-10 sm:text-center md:mt-14">Только это не «дыхание в живот».<br/> И не «купол во рту».</p>
                     <p className="mt-3 sm:text-center md:mt-8">Ее не узнаешь и за 10 лет изучения теории музыки.<br/> Не поймешь через медитации и шаманские практики.<br/> Не выяснишь при хаотичном просмотре Ютюб уроков.</p>
-                    <p className="pl-4 _text-bold-14-24 mt-7 md:pl-0 md:text-center">
+                    <p className="pl-4 _text-bold-14-24 mt-9 md:mt-12 md:pl-0 md:text-center">
                         <img src={round.src} alt="точка" className="inline pr-1"/>
                         Но этой универсальной формулой (осознанно или нет) пользуются почти
                         <img src={round.src} alt="точка" className="pl-1 hidden md:inline "/>
@@ -33,7 +33,7 @@ export default function Formula(){
                         <div className="w-1/2">
                             <div className="relative w-full pb-[100%] rounded-full border border-_pink ">
 
-                                <div className="rounded-full w-full h-full p-2 absolute">
+                                <div className="rounded-full w-full h-full  absolute">
                                     <div className="rounded-full w-full h-full bg-[url('/images/alchemy.png')] bg-cover bg-center bg-no-repeat">
                                         {/* эти блоки для бэкграунда alchemy.png */}
                                     </div>
@@ -51,7 +51,7 @@ export default function Formula(){
                                 <div className="_point right-[0px] xs:right-[5px] sm:right-[12px] md:right-[14px] lg:right-[16px] maxw:right-[18px] top-[calc(25%-10px)] sm:top-[calc(25%-15px)] md:top-[calc(25%-20px)] lg:top-[calc(25%-22px)] maxw:top-[calc(25%-27px)]">
                                     <div className="relative ">
                                         2
-                                        <div className="_text-14-20 font-normal xs:font-bold absolute z-0 text-_black top-0 left-4 sm:left-6 md:left-8 lg:left-10">
+                                        <div className="_text-14-20 font-normal xs:font-bold absolute z-0 text-_black top-0 left-4 xs:left-5 sm:left-7 md:top-1 md:left-9 lg:top-2.5 lg:left-14">
                                             Интонация
                                         </div>
                                     </div>
@@ -60,7 +60,7 @@ export default function Formula(){
                                 <div className="_point right-[0px] xs:right-[5px] sm:right-[12px] md:right-[14px] lg:right-[16px] maxw:right-[18px]  top-[calc(75%-10px)] sm:top-[calc(75%-15px)] md:top-[calc(75%-20px)] lg:top-[calc(75%-22px)] maxw:top-[calc(75%-27px)]">
                                     <div className="relative ">
                                         3
-                                        <div className="_text-14-20 font-normal xs:font-bold absolute z-0 text-_black top-0 left-3 xs:left-4 sm:left-6 md:left-8 lg:left-10">
+                                        <div className="_text-14-20 font-normal xs:font-bold absolute z-0 text-_black top-0 left-3 xs:left-5 sm:left-7 md:top-1 md:left-9 lg:top-2.5 lg:left-14">
                                             Артикуляция
                                         </div>
                                     </div>
@@ -78,7 +78,7 @@ export default function Formula(){
                                 <div className="_point left-[0px] xs:left-[5px] sm:left-[12px] md:left-[14px] lg:left-[16px] maxw:left-[18px]  top-[calc(75%-10px)] sm:top-[calc(75%-15px)] md:top-[calc(75%-20px)] lg:top-[calc(75%-22px)] maxw:top-[calc(75%-27px)]">
                                     <div className="relative ">
                                         5
-                                        <div className="_text-14-20 font-normal xs:font-bold absolute z-0 text-_black top-0 right-4 sm:right-6 md:right-8 lg:right-10">
+                                        <div className="_text-14-20 font-normal xs:font-bold absolute z-0 text-_black top-0 right-4 xs:right-5 sm:right-7 md:top-1 md:right-9 lg:top-2.5 lg:right-14">
                                             Резонаторы
                                         </div>
                                     </div>
@@ -87,7 +87,7 @@ export default function Formula(){
                                 <div className="_point left-[0px] xs:left-[5px] sm:left-[12px] md:left-[14px] lg:left-[16px] maxw:left-[18px] top-[calc(25%-10px)] sm:top-[calc(25%-15px)] md:top-[calc(25%-20px)] lg:top-[calc(25%-22px)] maxw:top-[calc(25%-27px)]">
                                     <div className="relative text-left">
                                         6
-                                        <div className="_text-14-20 font-normal xs:font-bold absolute z-0 text-_black top-0 right-4 sm:right-6 md:right-8 lg:right-10 w-21">
+                                        <div className="_text-14-20 font-normal xs:font-bold absolute z-0 text-_black top-0 right-4 xs:right-5 sm:right-7 md:top-1 md:right-9 lg:top-2.5 lg:right-14 w-21">
                                             Вокальные приемы
                                         </div>
                                     </div>

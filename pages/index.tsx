@@ -24,10 +24,10 @@ export default function Home() {
     return (
         <main className={``}>
             <Head>
-                <title>Петь легко 3.0</title>
+                <title>Система Петь легко 3.0 - научись красиво петь и зарабатывай на музыке и вокале</title>
                 <meta httpEquiv="content-language" content="ru" />
-                <meta name="description" content="На курсе вы поставите красивый и сильный голос, раскроете ваш уникальный тембр. Найдете свой стиль с применением вокальных приемов. Сможете петь любимые песни как в оригинале." />
-                <link rel="shortcut icon" href="/images/icons/favicon.ico" />
+                <meta name="description" content="Научитесь петь красиво с вокальными приемами - и зарабатывать на музыке и вокале." />
+                <link rel="shortcut icon" href="/images/icons/favicon.png" />
             </Head>
 
             <Nav />

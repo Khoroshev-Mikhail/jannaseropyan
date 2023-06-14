@@ -9,7 +9,7 @@ export default function Online(){
             <div className="_wrapper mt-20 md:mt-40">
                 <h3 className={`${AVRILE_SERIF} _h`}>Все происходит в удобном онлайн формате</h3>
                 <div className="flex mt-10 flex-col-reverse md:flex-row md:mt-16 ">
-                    <div className="mx-auto  mt-10 w-2/3 sm:w-1/2 md:w-1/3 md:mt-0 md:px-2 md:pt-12">
+                    <div className="mx-auto w-2/3  mt-12 sm:w-1/2 md:w-1/3 md:mt-0 md:pr-12 md:pt-12">
                         <Image src={online}  alt="Онлайн занятия с Жанной Серопян" className="mx-auto w-full"/>
                     </div>
                     <div className="w-full md:w-2/3">

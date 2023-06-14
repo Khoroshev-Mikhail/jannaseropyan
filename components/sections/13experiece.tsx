@@ -80,7 +80,7 @@ export default function Experience(){
 
                 <div className="flex justify-center relative w-full">
                     <div className="w-1/2 relative md:pb-[40%]">
-                        <Image src={women_with_microphone} alt="женщина с микрофоном" className="md:absolute md:-top-[40%] md:z-0"/>
+                        <Image src={women_with_microphone} alt="женщина с микрофоном" className="md:absolute md:-top-[25%] md:z-0"/>
                     </div>
                 </div>
 

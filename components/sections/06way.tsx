@@ -19,7 +19,7 @@ export default function Way(){
                                 <p>Вы любите петь - и у вас даже неплохо получается.  </p>
                             </div>
                             <div className="mt-5 p-4 border border-_pink rounded-md md:p-8 ">
-                                <p className="_p-bg-inline">Вот только:</p>
+                                <p className="_p-bg-inline !px-8">Вот только:</p>
                                 <ul className="marker:text-_pink [&>li]:list-disc list-inside">
                                     <li>Часто срывается голос, поете на связках</li>
                                     <li>Не берутся высокие или низкие ноты</li>
@@ -31,12 +31,12 @@ export default function Way(){
                         </div>
 
                         <div>
-                            <div>
+                            <div className="md:mt-[70px]">
                                 <p className="mt-5 relative z-50 md:mt-0">А ведь эти проблемы не исчезнут сами собой, если просто петь.</p>
                                 <p className="mt-5 relative z-50 w-2/3 md:w-full">И с каждым годом все труднее будет трансформировать себя и свою жизнь.</p>
                             </div>
                             <div className="relative z-30  mt-5 border border-_pink rounded-md p-4 md:p-8">
-                                <p className="_p-bg-inline">А пока что:</p>
+                                <p className="_p-bg-inline !px-8">А пока что:</p>
                                 <ul className="[&>li]:list-disc list-inside font-bold">
                                     <li>Срывы и зажимы</li>
                                     <li>Конкурсы - это не мое...</li>
@@ -50,8 +50,8 @@ export default function Way(){
 
                     </div>
 
-                    <div className="absolute right-0 bottom-24 w-full z-40 flex justify-end xs:bottom-20 md:static md:z-0 md:justify-center md:mt-[-100px] lg:mt-[-150px]">
-                        <Image src={girl_with_microphone} alt="девочка с микрофоном" className="w-1/3 md:w-1/2"/>
+                    <div className="absolute right-0 bottom-24 w-full z-40 flex justify-end xs:bottom-20 md:static md:z-0 md:justify-center md:-mt-[100px]">
+                        <Image src={girl_with_microphone} alt="девочка с микрофоном" className="w-1/3 md:w-1/2 -ml-20"/>
                     </div>
 
                 </div>

@@ -10,14 +10,14 @@ export default function Because(){
 
                     <div className="relative md:w-1/2 lg:w-7/12">
                         <p className="absolute -top-5 _p-bg-inline px-5 ml-5">ВАЖНО:</p>
-                        <ul className="py-8 px-12 bg-_mainbg rounded-md [&>li]:list-image-[url('/images/icons/done.svg')] [&>li]:pl-2">
-                            <li>Звучать на опоре и без зажимов</li>
-                            <li>Попадать в ноты и слышать себя со стороны </li>
-                            <li>Четко артикулировать</li>
-                            <li>Раскрыть природный тембр</li>
-                            <li>Соединить резонаторы</li>
-                            <li>Использовать Микст</li>
-                            <li>Применять вибрато и вокальные приемы</li>
+                        <ul className="py-8 px-12 bg-_mainbg rounded-md [&>li]:list-image-[url('/images/icons/done.svg')] [&>li]:relative [&>li>span]:absolute [&>li>span]:-top-[1px] [&>li]:pl-2">
+                            <li><span>Звучать на опоре и без зажимов</span></li>
+                            <li><span>Попадать в ноты и слышать себя со стороны </span></li>
+                            <li><span>Четко артикулировать</span></li>
+                            <li><span>Раскрыть природный тембр</span></li>
+                            <li><span>Соединить резонаторы</span></li>
+                            <li><span>Использовать Микст</span></li>
+                            <li><span>Применять вибрато и вокальные приемы</span></li>
                         </ul>
                         <div className="mt-5 md:mt-7 flex justify-start md:justify-center w-full">
                             <p className="text-center block font-bold">
@@ -29,14 +29,14 @@ export default function Because(){
 
                     <div className="mt-10 md:w-1/2 lg:w-5/12">
                         <p className="_p-bg-inline">Вообще НЕ ВАЖНО:</p>
-                        <ul className="py-8 px-12 [&>li]:list-image-[url('/images/icons/cross.svg')] [&>li]:pl-2">
-                            <li>Сотни распевок для разогрева</li>
-                            <li>«100 грамм» чтобы запеть </li>
-                            <li>Музыкальное образование</li>
-                            <li>Пробуждение «горловой чакры» и «энергетическое» дыхание </li>
-                            <li>Годы занятий с репетитором</li>
-                            <li>Особое вдохновение, настроение, просветление</li>
-                            <li>Вокальный талант от Бога)</li>
+                        <ul className="py-8 px-12 [&>li]:list-image-[url('/images/icons/cross.svg')] [&>li]:relative [&>li>span]:absolute [&>li>span]:-top-[1px] [&>li]:pl-2">
+                            <li><span>Сотни распевок для разогрева</span></li>
+                            <li><span>«100 грамм» чтобы запеть</span></li>
+                            <li><span>Музыкальное образование</span></li>
+                            <li><span>Пробуждение «горловой чакры» и «энергетическое» дыхание</span></li>
+                            <li><span>Годы занятий с репетитором</span></li>
+                            <li><span>Особое вдохновение, настроение, просветление</span></li>
+                            <li><span>Вокальный талант от Бога)</span></li>
                         </ul>
                         <div className="flex justify-start md:justify-center w-full">
                             <p className="text-center block font-bold">

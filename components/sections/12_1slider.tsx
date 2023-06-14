@@ -84,7 +84,7 @@ export default function Author_slider(){
                 {VIDEOS.map((el, i) => {
                     return (
                         <SwiperSlide key={i} className='md:pb-[80px] pb-[20px] sm:pb-[30px]'>
-                            <Author_slide {...el} />
+                            {/* <Author_slide {...el} /> */}
                         </SwiperSlide>
                     )
                 })}

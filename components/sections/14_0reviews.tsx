@@ -16,6 +16,7 @@ export default function Reviews(){
                 <p className="mt-7 md:mt-10 text-center">Результаты "До и После" говорят сами за себя:</p>
 
                 <Reviews_slider />
+                
                 <a href="#payment">
                     <Button className="mt-10 md:mt-20 !mx-auto">
                         Хочу так же!

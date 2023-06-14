@@ -18,8 +18,10 @@ export default function Reviews_slide( { photo, name, src, review, toggle }: { p
             </div>
             <div className="flex justify-center">
                 <button onClick={()=>toggle(src)} className="flex justify-center border border-_purple border-opacity-50 rounded-[8px/30px] _text-14-20 font-bold py-1 sm:py-2 md:py-3 px-2">
-                    Смотреть результат
-                    <Image src={play} alt="play" className="block ml-1"/>
+                    <div>Смотреть результат</div>
+                    <div className="flex flex-col justify-center h-full">
+                        <Image src={play} alt="play" className="block ml-1"/>
+                    </div>
                 </button>
             </div>
 

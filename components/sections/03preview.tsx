@@ -23,7 +23,7 @@ export default function Preview(){
 
                 </div>
                 <div className="md:w-[50%] h-full">
-                    <iframe loading="lazy" className="w-full h-full min-h-[200px] sm:min-h-[300px] rounded-md mt-4 md:mt-0" id="janna_seropyan" src="https://www.youtube.com/embed/0k-kTeuRBv0?controls=0" title="Жанна Серопян 3.0"  />
+                    {/* <iframe loading="lazy" className="w-full h-full min-h-[200px] sm:min-h-[300px] rounded-md mt-4 md:mt-0" id="janna_seropyan" src="https://www.youtube.com/embed/0k-kTeuRBv0?controls=0" title="Жанна Серопян 3.0"  /> */}
                 </div>
             </div>
         </section>

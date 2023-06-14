@@ -159,7 +159,7 @@ export default function Reviews_slider(){
                 </button>
             </div>  
 
-            {isOpen && <Fixed src={activeSRC} toggle={toggle} />}
+            {/* {isOpen && <Fixed src={activeSRC} toggle={toggle} />} */}
         </div>
     )
 }

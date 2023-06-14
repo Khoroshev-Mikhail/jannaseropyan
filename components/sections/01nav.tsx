@@ -4,6 +4,8 @@ import facebook from '../../public/images/icons/facebook.svg'
 import telegram from '../../public/images/icons/telegram.svg'
 import whatsapp from '../../public/images/icons/whatsapp.svg'
 import vk from '../../public/images/icons/vk.svg'
+import cross from '../../public/images/icons/cross.svg'
+
 import menu_burger from '../../public/images/icons/menu_burger.svg'
 import { useState } from "react";
 import Link from "next/link";
@@ -54,11 +56,10 @@ export default function Nav(){
 
                 {isOpen && 
                     <div onClick={()=>setIsOpen(false)} className="absolute z-30 right-0 p-3 rounded-l flex flex-col w-1/2 h-auto bg-_white">
+                        <Image src={cross} alt="x"  onClick={()=>setIsOpen(false)} className="absolute right-2 top-2"/>
+
                         <p className="block text-center">Напишите нам:</p>
-                        {/* <div className="flex justify-around p-4">
-                            <Image src={facebook} alt="facebook" className="block"/>
-                            <Image src={telegram} alt="telegram" className="block"/>
-                        </div> */}
+
                         <div className="flex justify-around p-4">
                             <Link href={TG_LINK}>
                                 <Image src={telegram} alt="telegram" className="block"/>

@@ -33,8 +33,8 @@ export default function Formula(){
                         <div className="w-1/2">
                             <div className="relative w-full pb-[100%] rounded-full border border-_pink ">
 
-                                <div className="rounded-full w-full h-full  absolute">
-                                    <div className="rounded-full w-full h-full bg-[url('/images/alchemy.png')] bg-cover bg-center bg-no-repeat">
+                                <div className="absolute rounded-full w-full h-full overflow-hidden flex flex-col justify-center">
+                                    <div className="mx-auto w-[80%] h-[80%] bg-[url('/images/alchemy.png')] bg-cover bg-center bg-no-repeat">
                                         {/* эти блоки для бэкграунда alchemy.png */}
                                     </div>
                                 </div>

@@ -1,5 +1,4 @@
 import { AVRILE_SERIF } from "@/pages/_app";
-import janna_seropyan_desktop from '../../public/images/janna_seropyan_desktop.png'
 import janna_seropyan_mobile from '../../public/images/janna_seropyan_mobile.png'
 import Button from "../ui/Button";
 

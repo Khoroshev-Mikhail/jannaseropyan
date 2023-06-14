@@ -5,7 +5,7 @@ export default function Faq(){
         <section className="_section">
             <div className="_wrapper mt-20 md:mt-40 md:px-20">
                 <h3 className={`${AVRILE_SERIF} _h`}>Вопросы, которые задают нам чаще всего:</h3>
-                <div className="flex flex-col mt-10 md:mt-10 [&>div]:border-b [&>div]:border-_pink [&>div]:py-4 [&>div]:pb-5">
+                <div className="flex flex-col mt-10 [&>div]:border-b [&>div]:border-_pink [&>div]:py-4 [&>div]:pb-5 md:mt-10 ">
                     <div className="border-t">
                         <p>А получится ли у меня? Есть ли у меня данные?</p>
                         <p>Если есть желание - то все получится, если вы конечно не немой)) Многие думают, что для того чтобы петь нужны какие то особенные данные - но на самом деле петь может каждый.</p>

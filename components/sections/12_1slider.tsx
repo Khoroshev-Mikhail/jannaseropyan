@@ -25,7 +25,7 @@ const VIDEOS = [
 export default function Author_slider(){
     
     return(
-        <div className="relative mt-10 md:mt-[90px] flex justify-between px-9 ">
+        <div className="relative mt-10 flex justify-between px-9 md:mt-[90px]">
             
             <style>
                 {`
@@ -83,14 +83,14 @@ export default function Author_slider(){
             >
                 {VIDEOS.map((el, i) => {
                     return (
-                        <SwiperSlide key={i} className='md:pb-[80px] pb-[20px] sm:pb-[30px]'>
+                        <SwiperSlide key={i} className='pb-[20px] sm:pb-[30px] md:pb-[80px]'>
                             <Author_slide {...el} />
                         </SwiperSlide>
                     )
                 })}
             </Swiper>
             
-            <div className="absolute z-50 right-0 h-[calc(100%-20px)] sm:h-[calc(100%-30px)]  md:h-[calc(100%-80px)] flex flex-col justify-center">
+            <div className="absolute z-50 right-0 flex flex-col justify-center h-[calc(100%-20px)] sm:h-[calc(100%-30px)]  md:h-[calc(100%-80px)]">
                 <button id='_NEXT_SMI_SLIDER' className='block'>
                     <img src={right.src} alt=">" className=''/>
                 </button>

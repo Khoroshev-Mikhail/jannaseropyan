@@ -51,13 +51,13 @@ export default function Steps(){
         <section className="_section">
             <div className="_wrapper mt-20 md:mt-40">
                 <h3 className={`${AVRILE_SERIF} _h`}>Эта формула и лежит в основе нашей программы «Петь Легко 3.0»</h3>
-                <p className="mt-10 md:mt-15 text-center _text-bold-14-24 text-_purple">Весь курс состоит из 7 последовательных ступеней</p>
-                <div className=" mt-4 sm:mt-8 md:mt-12 space-y-3.5 md:space-y-5 lg:space-y-10 maxw:space-y-12 ">
+                <p className="mt-10 text-center _text-bold-14-24 text-_purple md:mt-15">Весь курс состоит из 7 последовательных ступеней</p>
+                <div className=" mt-4 space-y-3.5 md:space-y-5 sm:mt-8 md:mt-12 lg:space-y-10 maxw:space-y-12 ">
                     {/* Здесь можно заМапить компонент Step с пропсами из STEPS - но для этого надо @npm i react-html-parser который весит 0.5мб
                     А лишний вес добавлять не хочется. Но может вес не пойдет в билд если оставить его в devDependencies.
                     А пока вобью все руками - но это тупо конечно. */}
 
-                    <div className="flex flex-col md:flex-row gap-x-5 lg:gap-x-10 maxw:gap-x-12 space-y-3.5 md:space-y-0">
+                    <div className="flex flex-col space-y-3.5 md:flex-row gap-x-5 lg:gap-x-10 maxw:gap-x-12 md:space-y-0">
                         <div className="w-full md:w-1/2">
                             <Step1 />
                         </div>
@@ -65,7 +65,7 @@ export default function Steps(){
                             <Step2 />
                         </div>
                     </div>
-                    <div className="flex flex-col md:flex-row gap-x-5 lg:gap-x-10 maxw:gap-x-12 space-y-3.5 md:space-y-0">
+                    <div className="flex flex-col space-y-3.5 md:flex-row gap-x-5 lg:gap-x-10 maxw:gap-x-12 md:space-y-0">
                         <div className="w-full md:w-1/2">
                             <Step3 />
                         </div>
@@ -73,7 +73,7 @@ export default function Steps(){
                             <Step4 />
                         </div>
                     </div>
-                    <div className="flex flex-col md:flex-row gap-x-5 lg:gap-x-10 maxw:gap-x-12 space-y-3.5 md:space-y-0">
+                    <div className="flex flex-col space-y-3.5 md:flex-row gap-x-5 lg:gap-x-10 maxw:gap-x-12 md:space-y-0">
                         <div className="w-full md:w-1/2">
                             <Step5 />
                         </div>
@@ -81,7 +81,7 @@ export default function Steps(){
                             <Step6 />
                         </div>
                     </div>  
-                    <div className="flex flex-col md:flex-row gap-x-5 lg:gap-x-10 maxw:gap-x-12 space-y-3.5 md:space-y-0">
+                    <div className="flex flex-col space-y-3.5 md:flex-row gap-x-5 lg:gap-x-10 maxw:gap-x-12 md:space-y-0">
                         <div className="w-full md:w-1/2">
                             <Step7 />
                         </div>

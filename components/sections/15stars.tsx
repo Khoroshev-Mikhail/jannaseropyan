@@ -8,6 +8,7 @@ import viktoria_klinkova from '../../public/images/photo_with_stars/viktoria_kli
 import { AVRILE_SERIF } from "@/pages/_app";
 import Fixed from "../ui/Fixed";
 import { useState } from "react";
+
 export default function Stars(){
     const [ isOpen, setIsOpen ] = useState<boolean>(false)
     const [ activeSRC, setActiveSRC ] = useState<string>('');
@@ -25,32 +26,32 @@ export default function Stars(){
                     <div onClick={()=>toggle("https://www.youtube.com/embed/8G5RXz0rmOs")} className="block cursor-pointer  col-span-6 xs:col-span-3 md:col-span-2">
                         <Image src={vitalii_abdulov} alt="Виталий Абдулов и Жанна Серопян" />
                         <p className="_text-bold-14-24 mt-4 md:mt-6">Виталий Абдулов</p>
-                        <p className="_text-14-20 text-ce xs:text-left mt-1.5">актер театра и кино («Молодежка», «Ранетки», «Марш Турецкого», «Кадетство», «Превосходство Борна»)</p>
+                        <p className="mt-1.5 _text-14-20 text-ce xs:text-left">актер театра и кино («Молодежка», «Ранетки», «Марш Турецкого», «Кадетство», «Превосходство Борна»)</p>
                     </div>
                     <div onClick={()=>toggle("https://www.youtube.com/embed/W4oLzrePAQg")} className="block cursor-pointer  col-span-6 xs:col-span-3 md:col-span-2">
                         <Image src={anastasiya_lisova} alt="Анастасия Лисова и Жанна Серопян" />
                         <p className="_text-bold-14-24 mt-4 md:mt-6">Анастасия Лисова</p>
-                        <p className="_text-14-20 text-ce xs:text-left mt-1.5">медийная личность, модель, Экс-участница «Дом-2»</p>
+                        <p className="mt-1.5 _text-14-20 text-ce xs:text-left">медийная личность, модель, Экс-участница «Дом-2»</p>
                     </div>
                     <div onClick={()=>toggle("https://www.youtube.com/embed/VLB_nomzBms")} className="block cursor-pointer  col-span-6 xs:col-span-3 md:col-span-2">
                         <Image src={ekaterina_melnik} alt="Екатерина Мельник и Жанна Серопян" />
                         <p className="_text-bold-14-24 mt-4 md:mt-6">Екатерина Мельник</p>
-                        <p className="_text-14-20 text-ce xs:text-left mt-1.5">Актриса театра и кино («Физрук», «Интерны», «Шпион», «Воин»)</p>
+                        <p className="mt-1.5 _text-14-20 text-ce xs:text-left">Актриса театра и кино («Физрук», «Интерны», «Шпион», «Воин»)</p>
                     </div>
                     <div onClick={()=>toggle("https://www.youtube.com/embed/fyrwy7UzUJE")} className="block cursor-pointer  col-span-6 xs:col-span-3 md:col-span-2">
                         <Image src={aliana_gobozova} alt="Алиана Гобозова (Устиненко) и Жанна Серопян" />
                         <p className="_text-bold-14-24 mt-4 md:mt-6">Алиана Гобозова (Устиненко)</p>
-                        <p className="_text-14-20 text-ce xs:text-left mt-1.5">Экс-участница «Дом-2»</p>
+                        <p className="mt-1.5 _text-14-20 text-ce xs:text-left">Экс-участница «Дом-2»</p>
                     </div>
                     <div className="col-span-6 xs:col-span-3 md:col-span-2">
                         <Image src={tatiana_kiriluk} alt="Татьяна Кирилюк и Жанна Серопян" />
                         <p className="_text-bold-14-24 mt-4 md:mt-6">Татьяна Кирилюк</p>
-                        <p className="_text-14-20 text-ce xs:text-left mt-1.5">журналистка, телеведущая, экс-участница «Дом-2»</p>
+                        <p className="mt-1.5 _text-14-20 text-ce xs:text-left">журналистка, телеведущая, экс-участница «Дом-2»</p>
                     </div>
                     <div onClick={()=>toggle("https://www.youtube.com/embed/yLgR6_FyMus")}  className="block cursor-pointer  col-span-6 xs:col-span-3 md:col-span-2">
                         <Image src={viktoria_klinkova} alt="Виктория Клинкова и Жанна Серопян" />
                         <p className="_text-bold-14-24 mt-4 md:mt-6">Виктория Клинкова</p>
-                        <p className="_text-14-20 text-ce xs:text-left mt-1.5">актриса кино (телесериал «Физрук», телеканал «Дисней»)</p>
+                        <p className="mt-1.5 _text-14-20 text-ce xs:text-left">актриса кино (телесериал «Физрук», телеканал «Дисней»)</p>
                     </div>
                 </div>
 

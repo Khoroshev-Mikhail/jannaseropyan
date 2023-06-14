@@ -16,12 +16,12 @@ export default function Author(){
         <section className="_section">
             <div className="_wrapper mt-20 md:mt-40">
                 <h3 className={`${AVRILE_SERIF} _h`}>Основатель школы  и автор методики</h3>
-                <div className="flex flex-col md:flex-row md:justify-between mt-10 md:mt-15 md:gap-x-16">
-                    <div className="w-1/3 hidden md:inline mt-[30px]">
+                <div className="mt-10 flex flex-col md:flex-row md:justify-between md:mt-15 md:gap-x-16">
+                    <div className=" mt-[30px] w-1/3 hidden md:inline">
                         <Image src={janna_seropyan_portrait} alt="Жанна Серопян" className="hidden md:inline"/>
                     </div>
                     <div className="w-full md:w-2/3">
-                        <h4 className="font-bold text-center md:text-left text-_purple text-[18px] sm:text-[20px] md:text-[24px] lg:text-[30px] maxw:text-[36px]">Жанна Серопян</h4>
+                        <h4 className="font-bold text-center text-_purple text-[18px] sm:text-[20px] md:text-left md:text-[24px] lg:text-[30px] maxw:text-[36px]">Жанна Серопян</h4>
                         <p className="_text-14-24 mt-1.5 text-center font-bold md:font-normal md:text-left">автор уникальной рефлекторной методики по ускоренной постановке и развитию голоса</p>
                         <div className="w-full flex justify-center md:hidden mt-5">
                             <Image src={janna_seropyan_portrait} alt="Жанна Серопян" className="w-1/2 md:hidden"/>
@@ -65,7 +65,7 @@ export default function Author(){
                     </div>
                     
                     <div className="md:w-5/12 flex flex-col justify-center">
-                        <p className="block text-center md:text-left bg-_mainbg rounded-lg _text-14-20 font-bold p-4">
+                        <p className="block text-center bg-_mainbg rounded-lg _text-14-20 font-bold p-4 md:text-left">
                             Телепередачи и статьи о Жанне часто появляются в ведущих СМИ - Москва24, Рен-ТВ, ТВ-центр, Cosmopolitan, МИР, Дни.ру
                         </p>
                     </div>

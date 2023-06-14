@@ -106,13 +106,13 @@ export default function Reviews_slider(){
                     width: 7px;
                     height: 7px;
                 }
-                @media (min-width: 720px) {
+                @media (min-width: 740px) {
                     .swiper-pagination-bullet {
                         width: 16px;
                         height: 16px;
                     }
                 }
-                @media (min-width: 880px) {
+                @media (min-width: 910px) {
                     .swiper-pagination-bullet {
                         width: 22px;
                         height: 22px;
@@ -159,7 +159,7 @@ export default function Reviews_slider(){
                 </button>
             </div>  
 
-            {/* {isOpen && <Fixed src={activeSRC} toggle={toggle} />} */}
+            {isOpen && <Fixed src={activeSRC} toggle={toggle} />}
         </div>
     )
 }

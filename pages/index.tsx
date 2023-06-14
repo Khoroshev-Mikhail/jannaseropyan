@@ -18,10 +18,18 @@ import Online from "@/components/sections/17online";
 import Faq from "@/components/sections/18faq";
 import Footer from "@/components/sections/19footer";
 import Fixed from "@/components/ui/Fixed";
+import Head from "next/head";
 
 export default function Home() {
     return (
         <main className={``}>
+            <Head>
+                <title>Петь легко 3.0</title>
+                <meta httpEquiv="content-language" content="ru" />
+                <meta name="description" content="На курсе вы поставите красивый и сильный голос, раскроете ваш уникальный тембр. Найдете свой стиль с применением вокальных приемов. Сможете петь любимые песни как в оригинале." />
+                <link rel="shortcut icon" href="/images/icons/favicon.ico" />
+            </Head>
+
             <Nav />
             <Header />
             <Preview />

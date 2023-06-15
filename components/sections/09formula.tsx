@@ -34,7 +34,7 @@ export default function Formula(){
                             <div className="relative w-full pb-[100%] rounded-full border border-_pink ">
 
                                 <div className="absolute rounded-full w-full h-full overflow-hidden flex flex-col justify-center">
-                                    <div className="mx-auto w-[80%] h-[80%] bg-[url('/images/alchemy.png')] bg-cover bg-center bg-no-repeat">
+                                    <div className="mx-auto w-[80%] h-[80%] bg-[url('/images/alchemy.webp')] bg-cover bg-center bg-no-repeat">
                                         {/* эти блоки для бэкграунда alchemy.png */}
                                     </div>
                                 </div>

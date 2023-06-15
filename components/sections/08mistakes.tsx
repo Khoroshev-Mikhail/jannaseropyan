@@ -3,7 +3,7 @@ export default function Mistakes(){
         <section className="_section relative mt-20 flex justify-between w-full pb-[50%] sm:pb-[33.333%] md:pb-0 md:mt-40">
 
             <div className="absolute z-20 w-full h-full flex justify-center max-w-[1138px]">
-                <div className="w-1/2 h-full bg-[url('/images/gears.png')] bg-bottom md:bg-right bg-contain bg-no-repeat sm:w-1/3 md:w-full">
+                <div className="w-1/2 h-full bg-[url('/images/gears.webp')] bg-bottom md:bg-right bg-contain bg-no-repeat sm:w-1/3 md:w-full">
                     {/* эти блоки для бэкграудна (шестерёнки) */}
                 </div>
             </div>

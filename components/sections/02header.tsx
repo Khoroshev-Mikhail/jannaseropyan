@@ -1,5 +1,5 @@
 import { AVRILE_SERIF } from "@/pages/_app";
-import janna_seropyan_mobile from '../../public/images/janna_seropyan_mobile.png'
+import janna_seropyan_mobile from '../../public/images/janna_seropyan_mobile.webp'
 import Button from "../ui/Button";
 
 export default function Header(){

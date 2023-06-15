@@ -1,5 +1,5 @@
 import Image from "next/image";
-import girl_with_microphone from '../../public/images/girl_with_microphone.png'
+import girl_with_microphone from '../../public/images/girl_with_microphone.webp'
 import { AVRILE_SERIF } from "@/pages/_app";
 
 export default function Way(){

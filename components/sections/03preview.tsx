@@ -35,7 +35,7 @@ export default function Preview(){
 
                 <div className="h-full md:w-[50%]">
                     {/* <iframe loading="lazy" className="w-full h-full min-h-[200px] rounded-md mt-4 sm:min-h-[300px] md:mt-0" id="janna_seropyan" src="https://www.youtube.com/embed/0k-kTeuRBv0?controls=0" title="Жанна Серопян 3.0"  /> */}
-                    <Image src={preview} alt="Видео: что такое - 'Петь Легко 3.0" onClick={()=>toggle("https://www.youtube.com/embed/0k-kTeuRBv0?controls=0")}  className="w-full h-full min-h-[200px] rounded-md mt-4 cursor-pointer sm:min-h-[300px] md:mt-0"/>
+                    <Image src={preview} alt="Видео: что такое - 'Петь Легко 3.0" onClick={()=>toggle("https://www.youtube.com/embed/0k-kTeuRBv0?controls=0")}  className="w-full aspect-video  rounded-md mt-4 cursor-pointer  md:mt-0"/>
                 </div>
 
                 {isOpen && <Fixed src={activeSRC} toggle={toggle}/>}

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import online from '../../public/images/online.webp'
+import done from '../../public/images/icons/done_4x.png'
 import { AVRILE_SERIF } from "@/pages/_app";
 import Button from "../ui/Button";
 
@@ -16,13 +17,13 @@ export default function Online(){
                         <p>Живые занятия - «отмазка» для ленивых.</p>
                         <p className="mt-3"><b>Единственное отличие живых занятий</b> - педагог может вас «пощупать» лично.  Но вы же не за этим идете учится петь?</p>
                         <div className="_p-bg mt-12 py-1 _text-14-24 md:!text-left">В остальном - онлайн удобнее и современнее:</div>
-                        <ul className="[&>li]:list-image-[url('/images/icons/done.png')] [&>li]:pl-2 pl-[52px] mt-4 md:mt-8 space-y-4">
-                            <li>Ноль времени на дорогу и ожидание своей очереди</li>
-                            <li>Личный кабинет с видеоуроками и распевками</li>
-                            <li>Полноценное общение с педагогом - на индивидуальных уроках</li>
-                            <li>Единая система и методика </li>
-                            <li>Подбор педагогов конкретно под вас</li>
-                            <li>Занимаетесь из любого места, с любого устройства.</li>
+                        <ul className=" pl-[30px] mt-4 md:mt-8 space-y-4">
+                            <li><Image width={20} height={20} src={done} alt="✓" className="inline -mt-1 mr-2"/> Ноль времени на дорогу и ожидание своей очереди</li>
+                            <li><Image width={20} height={20} src={done} alt="✓" className="inline -mt-1 mr-2"/> Личный кабинет с видеоуроками и распевками</li>
+                            <li><Image width={20} height={20} src={done} alt="✓" className="inline -mt-1 mr-2"/> Полноценное общение с педагогом - на индивидуальных уроках</li>
+                            <li><Image width={20} height={20} src={done} alt="✓" className="inline -mt-1 mr-2"/> Единая система и методика </li>
+                            <li><Image width={20} height={20} src={done} alt="✓" className="inline -mt-1 mr-2"/> Подбор педагогов конкретно под вас</li>
+                            <li><Image width={20} height={20} src={done} alt="✓" className="inline -mt-1 mr-2"/> Занимаетесь из любого места, с любого устройства.</li>
                         </ul>
                         <p className="_text-bold-14-24 text-_purple mt-4">А главное - вы не просто ходите развлекаться, а двигаетесь по системе, отслеживаете результаты и меняете голос.</p>
                         <a href="#payment">

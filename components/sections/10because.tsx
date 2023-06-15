@@ -1,5 +1,6 @@
 import { AVRILE_SERIF } from "@/pages/_app";
-import finger from '../../public/images/icons/finger.png'
+import finger from '../../public/images/icons/finger.svg'
+import Image from "next/image";
 
 export default function Because(){
     return (
@@ -23,7 +24,7 @@ export default function Because(){
                             <p className="text-center block font-bold">
                                 Когда умеешь это 
                             </p>
-                            <img src={finger.src} alt="↑" className="-mt-2 block w-4 sm:w-5 md:w-6 lg:w-7 maxw:w-8"/>
+                            <Image src={finger} alt="↑" className="-mt-2 block w-4 sm:w-5 md:w-6 lg:w-7 maxw:w-8"/>
                         </div>
                     </div>
 
@@ -42,7 +43,7 @@ export default function Because(){
                             <p className="text-center block font-bold">
                                 Это уже не нужно
                             </p>
-                            <img src={finger.src} alt="↑" className="-mt-2 block w-4 sm:w-5 md:w-6 lg:w-7 maxw:w-8"/>
+                            <Image src={finger} alt="↑" className="-mt-2 block w-4 sm:w-5 md:w-6 lg:w-7 maxw:w-8"/>
                         </div>
                     </div>
 

@@ -13,7 +13,7 @@ html{
     @apply px-3 w-full max-w-[1138px] maxw:px-0 _text-14-20;
 }
 ._h {
-    @apply text-center font-bold px-4 sm:px-14 md:px-20 lg:px-28 maxw:px-40 text-[20px] sm:text-[22px] md:text-[24px] lg:text-[30px] maxw:text-[36px]
+    @apply text-center font-bold px-4 sm:px-14 md:px-20 lg:px-28 maxw:px-40 text-[22px] sm:text-[24px] md:text-[26px] lg:text-[30px] maxw:text-[36px]
 }
 ._h-text {
     @apply text-center font-bold text-[18px] sm:text-[20px] md:text-[24px] lg:text-[30px] maxw:text-[36px]

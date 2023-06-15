@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from "next/image";
-import janna_seropyan_portrait from '../../public/images/janna_seropyan_portrait.png'
+import janna_seropyan_portrait from '../../public/images/janna_seropyan_portrait.webp'
 import { AVRILE_SERIF } from "@/pages/_app";
 
 import moscow from '../../public/images/moscow.png'

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import arrow_double from "../../public/images/icons/arrow_double.svg"
-import preview from '../../public/images/video_previews/chto_takoe_pet_legko.jpg'
+import preview from '../../public/images/video_previews/chto_takoe_pet_legko.webp'
 import { useState } from "react";
 import Fixed from "../ui/Fixed";
 

@@ -9,8 +9,8 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import Author_slide from '../ui/Author_slide';
-import janna_seropyan_s_bodrym_utrom_na_renTV from '../../public/images/video_previews/janna_seropyan_s_bodrym_utrom_na_renTV.jpg'
-import janna_seropyan_doctor_I from '../../public/images/video_previews/janna_seropyan_doctor_I.jpg'
+import janna_seropyan_s_bodrym_utrom_na_renTV from '../../public/images/video_previews/janna_seropyan_s_bodrym_utrom_na_renTV.webp'
+import janna_seropyan_doctor_I from '../../public/images/video_previews/janna_seropyan_doctor_I.webp'
 import janna_seropyan_mir from '../../public/images/video_previews/janna_seropyan_mir.jpg'
 import janna_seropyan_mir_180 from '../../public/images/video_previews/janna_seropyan_mir_180.jpg'
 import janna_seropyan_na_radio_nashe_podmoskovje from '../../public/images/video_previews/janna_seropyan_na_radio_nashe_podmoskovje.jpg'

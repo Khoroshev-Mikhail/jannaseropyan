@@ -1,5 +1,5 @@
 import Image from "next/image";
-import online from '../../public/images/online.png'
+import online from '../../public/images/online.webp'
 import { AVRILE_SERIF } from "@/pages/_app";
 import Button from "../ui/Button";
 

@@ -36,9 +36,9 @@ import kurlovich from '../../public/images/reviews/lera_kurlovich.png'
 import lazareva from '../../public/images/reviews/anna_lazareva.png'
 import vinograod from '../../public/images/reviews/dmitrii_vinogradov.png'
 import smirnova from '../../public/images/reviews/marina_smirnova.png'
-import mihailova from '../../public/images/reviews/julia_mihailova.png'
-import churyakov from '../../public/images/reviews/aleksandr_churyakov.png'
-import aisana from '../../public/images/reviews/aisana.png'
+import mihailova from '../../public/images/reviews/julia_mihailova.webp'
+import churyakov from '../../public/images/reviews/aleksandr_churyakov.webp'
+import aisana from '../../public/images/reviews/aisana.webp'
 
 import Fixed from '../ui/Fixed';
 import { useState } from 'react';

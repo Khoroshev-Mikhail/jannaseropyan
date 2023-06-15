@@ -1,5 +1,5 @@
 import Image from "next/image";
-import boy_with_microphone from '../../public/images/boy_with_microphone.png'
+import boy_with_microphone from '../../public/images/boy_with_microphone.webp'
 import { AVRILE_SERIF } from "@/pages/_app";
 import quotes_start from '../../public/images/icons/quotes_start.png'
 import quotes_end from '../../public/images/icons/quotes_end.png'

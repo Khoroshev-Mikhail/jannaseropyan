@@ -1,7 +1,5 @@
 import Image, { StaticImageData } from "next/image";
 import play from '../../public/images/icons/arrow_play.svg'
-import { Dispatch, SetStateAction, useState } from "react";
-import Fixed from "./Fixed";
 
 export default function Reviews_slide( { photo, name, src, review, toggle }: { photo: StaticImageData, name: string, src: string, review: string, toggle: (src: string) => void } ){
 

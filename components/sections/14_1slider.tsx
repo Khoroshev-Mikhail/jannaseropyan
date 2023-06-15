@@ -77,6 +77,7 @@ export const REVIEWS = [
     {photo: smirnova, name: 'Мария Смирнова', src: "https://www.youtube.com/embed/eV70DYKhhEw", review: '“ – Когда я пришла к Жанне, я знала, что случай у меня сложный. Мне надо было переучиваться с фольклорного звука на рок-вокал, о котором я так мечтала. Многое для меня на занятиях было открытием...'},
 ]
 
+
 export default function Reviews_slider(){
     const [ isOpen, setIsOpen ] = useState<boolean>(false)
     const [ activeSRC, setActiveSRC ] = useState<string>('');
@@ -160,6 +161,7 @@ export default function Reviews_slider(){
             </div>  
 
             {isOpen && <Fixed src={activeSRC} toggle={toggle} />}
+
         </div>
     )
 }

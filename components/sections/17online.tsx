@@ -16,7 +16,7 @@ export default function Online(){
                         <p>Живые занятия - «отмазка» для ленивых.</p>
                         <p className="mt-3"><b>Единственное отличие живых занятий</b> - педагог может вас «пощупать» лично.  Но вы же не за этим идете учится петь?</p>
                         <div className="_p-bg mt-12 py-1 _text-14-24 md:!text-left">В остальном - онлайн удобнее и современнее:</div>
-                        <ul className="[&>li]:list-image-[url('/images/icons/done.svg')] [&>li]:pl-2 pl-[52px] mt-4 md:mt-8 space-y-4">
+                        <ul className="[&>li]:list-image-[url('/images/icons/done.png')] [&>li]:pl-2 pl-[52px] mt-4 md:mt-8 space-y-4">
                             <li>Ноль времени на дорогу и ожидание своей очереди</li>
                             <li>Личный кабинет с видеоуроками и распевками</li>
                             <li>Полноценное общение с педагогом - на индивидуальных уроках</li>

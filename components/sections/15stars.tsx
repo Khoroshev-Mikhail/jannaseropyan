@@ -1,10 +1,10 @@
 import Image from "next/image";
-import vitalii_abdulov from '../../public/images/photo_with_stars/vitalii_abdulov.png'
-import anastasiya_lisova from '../../public/images/photo_with_stars/anastasiya_lisova.png'
-import ekaterina_melnik from '../../public/images/photo_with_stars/ekaterina_melnik.png'
-import aliana_gobozova from '../../public/images/photo_with_stars/aliana_gobozova.png'
-import tatiana_kiriluk from '../../public/images/photo_with_stars/tatiana_kiriluk.png'
-import viktoria_klinkova from '../../public/images/photo_with_stars/viktoria_klinkova.png'
+import vitalii_abdulov from '../../public/images/photo_with_stars/vitalii_abdulov.webp'
+import anastasiya_lisova from '../../public/images/photo_with_stars/anastasiya_lisova.webp'
+import ekaterina_melnik from '../../public/images/photo_with_stars/ekaterina_melnik.webp'
+import aliana_gobozova from '../../public/images/photo_with_stars/aliana_gobozova.webp'
+import tatiana_kiriluk from '../../public/images/photo_with_stars/tatiana_kiriluk.webp'
+import viktoria_klinkova from '../../public/images/photo_with_stars/viktoria_klinkova.webp'
 import { AVRILE_SERIF } from "@/pages/_app";
 import Fixed from "../ui/Fixed";
 import { useState } from "react";

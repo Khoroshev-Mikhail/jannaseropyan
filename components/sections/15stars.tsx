@@ -8,8 +8,6 @@ import viktoria_klinkova from '../../public/images/photo_with_stars/viktoria_kli
 import { AVRILE_SERIF } from "@/pages/_app";
 import Fixed from "../ui/Fixed";
 import { useState } from "react";
-import youtube_48x48 from '../../public/images/icons/youtube_48x48.svg'
-import youtube_96x96 from '../../public/images/icons/youtube_96x96.svg'
 import youtube_64x64 from '../../public/images/icons/youtube_64x64.svg'
 
 export default function Stars(){

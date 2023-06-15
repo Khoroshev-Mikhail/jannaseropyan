@@ -9,6 +9,9 @@ const Avrile_Serif_Font = localFont({ src: '../public/fonts/AvrileSerif-Bold.ttf
 const OPEN_SANS = Open_Sans_Font.className
 export const AVRILE_SERIF = Avrile_Serif_Font.className
 
+export function reportWebVitals(metric: any) {
+    console.log(metric)
+  }
 export default function App({ Component, pageProps }: AppProps) {
     return (
         <main className={`${OPEN_SANS} text-_black`}>

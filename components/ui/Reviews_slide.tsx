@@ -18,7 +18,7 @@ export default function Reviews_slide( { photo, name, src, review, toggle }: { p
                 <button onClick={()=>toggle(src)} className="flex justify-center border border-_purple border-opacity-50 rounded-[8px/30px] _text-14-20 font-bold py-1 px-2 sm:py-2 md:py-3 hover:px-4 duration-300 ">
                     <div>Смотреть результат</div>
                     <div className="flex flex-col justify-center h-full">
-                        <Image src={play} alt="play" className="block ml-1"/>
+                        <Image src={play} alt="play" loading="lazy" className="block ml-1"/>
                     </div>
                 </button>
             </div>

@@ -51,7 +51,7 @@ export default function Formula(){
                                 <div className="_point right-[0px] xs:right-[5px] sm:right-[12px] md:right-[14px] lg:right-[16px] maxw:right-[18px] top-[calc(25%-10px)] sm:top-[calc(25%-15px)] md:top-[calc(25%-20px)] lg:top-[calc(25%-22px)] maxw:top-[calc(25%-27px)]">
                                     <div className="relative ">
                                         2
-                                        <div className="_text-14-20 font-normal xs:font-bold absolute z-0 text-_black top-0 left-4 xs:left-5 sm:left-7 md:top-1 md:left-9 lg:top-2.5 lg:left-14">
+                                        <div className="_text-14-20_formula font-normal xs:font-bold absolute z-0 text-_black top-0 left-4 xs:left-5 sm:left-7 md:top-1 md:left-9 lg:top-2.5 lg:left-14">
                                             Интонация
                                         </div>
                                     </div>
@@ -60,7 +60,7 @@ export default function Formula(){
                                 <div className="_point right-[0px] xs:right-[5px] sm:right-[12px] md:right-[14px] lg:right-[16px] maxw:right-[18px]  top-[calc(75%-10px)] sm:top-[calc(75%-15px)] md:top-[calc(75%-20px)] lg:top-[calc(75%-22px)] maxw:top-[calc(75%-27px)]">
                                     <div className="relative ">
                                         3
-                                        <div className="_text-14-20 font-normal xs:font-bold absolute z-0 text-_black top-0 left-3 xs:left-5 sm:left-7 md:top-1 md:left-9 lg:top-2.5 lg:left-14">
+                                        <div className="_text-14-20_formula font-normal xs:font-bold absolute z-0 text-_black top-0 left-3 xs:left-5 sm:left-7 md:top-1 md:left-9 lg:top-2.5 lg:left-14">
                                             Артикуляция
                                         </div>
                                     </div>

@@ -19,6 +19,9 @@ html{
     @apply text-center font-bold text-[18px] sm:text-[20px] md:text-[24px] lg:text-[30px] maxw:text-[36px]
 }
 ._text-14-20{
+    @apply text-[16px] sm:text-[16px] md:text-[18px] maxw:text-[20px]
+}
+._text-14-20_formula{
     @apply text-[14px] sm:text-[16px] md:text-[18px] maxw:text-[20px]
 }
 ._text-bold-14-24{

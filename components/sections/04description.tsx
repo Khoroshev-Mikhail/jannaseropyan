@@ -8,11 +8,11 @@ export default function Description(){
     return (
         <section className="_section">
             <div className="_wrapper mt-20">
-                <div>
+                <div data-aos="fade-right" data-aos-duration="2000">
                     <h3 className={`${AVRILE_SERIF} _h`}>Как новичку поставить красивый голос, не тратя годы на обучение?</h3>
                 </div>
 
-                <div className=" mt-9 flex justify-center">
+                <div data-aos="fade-right" data-aos-duration="2000" className=" mt-9 flex justify-center">
                     <div>
                         <div className="flex justify-around w-auto">
                             <Image src={quotes_start} alt="'" className="block w-[12px] md:w-[36px]"/>
@@ -30,7 +30,7 @@ export default function Description(){
                     </div>
                 </div>
 
-                <div className="flex justify-between">
+                <div data-aos="fade-right" data-aos-duration="2000" className="flex justify-between">
                     <div className="hidden sm:w-1/3 sm:flex sm:flex-col sm:justify-center">
                         <Image src={boy_with_microphone} alt="Парень с микрофоном" className="block"/>
                     </div>

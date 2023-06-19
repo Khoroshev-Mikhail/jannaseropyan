@@ -130,6 +130,7 @@ export default function Reviews_slider(){
             </div>
 
             <Swiper
+                data-aos="fade-right" data-aos-duration="2000"
                 id='reviews_slider'
                 modules={ [Navigation, Pagination] }
                 spaceBetween={10}

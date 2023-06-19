@@ -1,0 +1,20 @@
+User-agent: Yandex
+Disallow: /formula
+Disallow: /gromkost
+Disallow: /medved
+Disallow: /tembr
+Disallow: /priemy
+Disallow: /strah
+
+Crawl-delay: 60
+
+User-agent: *
+Disallow: /formula
+Disallow: /gromkost
+Disallow: /medved
+Disallow: /tembr
+Disallow: /priemy
+Disallow: /strah
+
+User-agent: vkShare
+Crawl-delay: 60

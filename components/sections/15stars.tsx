@@ -22,8 +22,8 @@ export default function Stars(){
         <section className="_section  bg-_mainbg mt-20 md:mt-40">
             <div className="_wrapper my-10 md:my-20">
                 
-                <h3 className={`${AVRILE_SERIF} _h`}>Звездные ученики нашей школы</h3>
-                <div className="grid grid-cols-6 xs:gap-x-4 md:gap-x-8 gap-y-8 md:gap-y-16  mt-10 md:mt-14">
+                <h3 data-aos="fade-right" data-aos-duration="2000" className={`${AVRILE_SERIF} _h`}>Звездные ученики нашей школы</h3>
+                <div data-aos="fade-right" data-aos-duration="2000" className="grid grid-cols-6 xs:gap-x-4 md:gap-x-8 gap-y-8 md:gap-y-16  mt-10 md:mt-14">
                     <div onClick={()=>toggle("https://www.youtube.com/embed/8G5RXz0rmOs")} className="block cursor-pointer col-span-6 xs:col-span-3 md:col-span-2">
                         <div className="relative">
                             <div className="absolute flex flex-col justify-center w-full h-full">

@@ -6,7 +6,7 @@ export default function Header(){
     return (
         <section className="_section bg-_mainbg overflow-hidden">
             <div className="_wrapper relative h-full">
-                <div className="relative z-10 md:w-[61%] sm:pb-2 md:pb-[76px]">
+                <div data-aos="fade-right" data-aos-duration="2000" className="relative z-10 md:w-[61%] sm:pb-2 md:pb-[76px]">
                     <div className={`${AVRILE_SERIF}`}>
                         <h1 className="text-center md:text-left uppercase text-_purple text-[24px] sm:text-[26px] md:text-[34px] lg:text-[40px] maxw:text-[47px] mt-2 sm:mt-6 md:mt-10 lg:mt-14 maxw:mt-18">
                             НАУЧИТЕСЬ ПЕТЬ КРАСИВО

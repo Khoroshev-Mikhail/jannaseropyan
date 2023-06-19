@@ -50,9 +50,9 @@ export default function Steps(){
     return (
         <section className="_section">
             <div className="_wrapper mt-20 md:mt-40">
-                <h3 className={`${AVRILE_SERIF} _h`}>Эта формула и лежит в основе нашей программы «Петь Легко 3.0»</h3>
-                <p className="mt-10 text-center _text-bold-14-24 text-_purple md:mt-15">Весь курс состоит из 7 последовательных ступеней</p>
-                <div className="mt-10 space-y-3.5 md:space-y-5 sm:mt-8 md:mt-16 lg:space-y-10 maxw:space-y-12 ">
+                <h3 data-aos="fade-right" data-aos-duration="2000" className={`${AVRILE_SERIF} _h`}>Эта формула и лежит в основе нашей программы «Петь Легко 3.0»</h3>
+                <p data-aos="fade-right" data-aos-duration="2000" className="mt-10 text-center _text-bold-14-24 text-_purple md:mt-15">Весь курс состоит из 7 последовательных ступеней</p>
+                <div data-aos="fade-right" data-aos-duration="2000" className="mt-10 space-y-3.5 md:space-y-5 sm:mt-8 md:mt-16 lg:space-y-10 maxw:space-y-12 ">
                     {/* Здесь можно заМапить компонент Step с пропсами из STEPS - но для этого надо @npm i react-html-parser который весит 0.5мб
                     А лишний вес добавлять не хочется. Но может вес не пойдет в билд если оставить его в devDependencies.
                     А пока вобью все руками - но это тупо конечно. */}

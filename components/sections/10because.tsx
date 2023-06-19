@@ -8,10 +8,10 @@ export default function Because(){
     return (
         <section className="_section">
             <div className="_wrapper mt-10 md:mt-20">
-                <h3 className={`${AVRILE_SERIF} _h`}>Потому что на самом деле:</h3>
+                <h3 data-aos="fade-right" data-aos-duration="2000" className={`${AVRILE_SERIF} _h`}>Потому что на самом деле:</h3>
                 <div className="mt-10 flex flex-col justify-center gap-x-6 sm:mt-12 md:mt-14 lg:mt-16 md:flex-row sm:gap-x-8 md:gap-x-10 lg:gap-x-12 maxw:gap-x-14">
 
-                    <div className="relative md:w-1/2 lg:w-7/12">
+                    <div data-aos="fade-right" data-aos-duration="2000" className="relative md:w-1/2 lg:w-7/12">
                         <p className="absolute -top-3 px-14 ml-5 inline _text-14-24 font-bold bg-[url('../public/images/p_bg_small.png')] bg-center bg-cover bg-no-repeat text-_white">ВАЖНО:</p>
                         <ul className="py-8 px-4 md:px-8 bg-_mainbg rounded-md ">
                             <li><Image width={20} height={20} src={done} alt="✓" className="inline -mt-1 mr-2 xs:mr-4"/>Звучать на опоре и без зажимов</li>
@@ -30,7 +30,7 @@ export default function Because(){
                         </div>
                     </div>
 
-                    <div className="mt-10 md:w-1/2 lg:w-5/12">
+                    <div data-aos="fade-right" data-aos-duration="2000" className="mt-10 md:w-1/2 lg:w-5/12">
                         <p className="inline px-12 ml-5 _text-14-24 font-bold bg-[url('../public/images/p_bg_small.png')] bg-center  bg-cover bg-no-repeat text-_white">Вообще НЕ ВАЖНО:</p>
                         <ul className="py-8 px-4 md:px-8 ">
                             <li><Image width={20} height={20} src={cross} alt="✓" className="inline -mt-1 mr-2 xs:mr-4"/>Сотни распевок для разогрева</li>

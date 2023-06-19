@@ -8,14 +8,14 @@ export default function Experience(){
         <section className="_section">
             <div className="_wrapper mt-20 md:mt-40">
           
-                <div>
+                <div data-aos="fade-right" data-aos-duration="2000">
                     <h3 className={`${AVRILE_SERIF} _h`}>Последняя версия программы заняла у меня больше 5 лет исследований и тестов</h3>
                     <p className="text-_purple text-center mt-10 md:mt-14">На тысячах наших учеников - онлайн и оффлайн </p>
                     <p className="mx-auto text-center mt-2 md:mt-4 md:w-3/4 ">Теперь она дает четкие и предсказуемые результаты всем - независимо от таланта или музыкального образования:</p>
                 </div>
 
 
-                <div className="relative z-10 grid grid-cols-12 p-4 mt-6 md:mt-16  md:gap-x-10 md:gap-y-9">
+                <div data-aos="fade-right" data-aos-duration="2000" className="relative z-10 grid grid-cols-12 p-4 mt-6 md:mt-16  md:gap-x-10 md:gap-y-9">
                     <div className="col-span-12 _text-bold-14-24 md:col-span-5">
                         <p>Если ты новичок в вокале, у тебя было так:</p>
                     </div>
@@ -78,13 +78,13 @@ export default function Experience(){
 
                 </div>
 
-                <div className="flex justify-center relative w-full">
+                <div data-aos="fade-right" data-aos-duration="2000" className="flex justify-center relative w-full">
                     <div className="w-1/2 relative md:pb-[40%]">
                         <Image src={women_with_microphone} alt="женщина с микрофоном" className="md:absolute md:-top-[25%] md:z-0"/>
                     </div>
                 </div>
 
-                <div className="relative pb-8">
+                <div data-aos="fade-right" data-aos-duration="2000" className="relative pb-8">
 
                     <div className="absolute z-0 hidden bg-_mainbg w-[55%] -mt-8 top-0 min-h-full right-0 rounded-lg border border-_pink md:block">
                         {/* Блок для фона */}

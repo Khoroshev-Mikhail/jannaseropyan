@@ -39,7 +39,7 @@ export default function Author_slider(){
     }
     
     return(
-        <div className="relative mt-10 flex justify-between px-9 md:mt-[90px]">
+        <div data-aos="fade-right" data-aos-duration="2000" className="relative mt-10 flex justify-between px-9 md:mt-[90px]">
             
             <style>
                 {`

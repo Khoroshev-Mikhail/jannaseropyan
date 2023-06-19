@@ -16,7 +16,7 @@ export default function Preview(){
         <section className="_section">
             <div className="_wrapper h-full mt-20 md:flex md:justify-between">
 
-                <div className="space-y-3 text-[20px] md:w-[45%] ">
+                <div data-aos="fade-right" data-aos-duration="2000" className="space-y-3 text-[20px] md:w-[45%] ">
                     <p>
                         <span className="text-_purple">На курсе вы поставите красивый и сильный голос, </span> 
                         раскроете ваш уникальный тембр.

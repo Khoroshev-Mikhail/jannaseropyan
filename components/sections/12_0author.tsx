@@ -15,8 +15,8 @@ export default function Author(){
     return (
         <section className="_section">
             <div className="_wrapper mt-20 md:mt-40">
-                <h3 className={`${AVRILE_SERIF} _h`}>Основатель школы  и автор методики</h3>
-                <div className="mt-10 flex flex-col md:flex-row md:justify-between md:mt-15 md:gap-x-16">
+                <h3 data-aos="fade-right" data-aos-duration="2000" className={`${AVRILE_SERIF} _h`}>Основатель школы  и автор методики</h3>
+                <div data-aos="fade-right" data-aos-duration="2000" className="mt-10 flex flex-col md:flex-row md:justify-between md:mt-15 md:gap-x-16">
                     <div className=" mt-[30px] w-1/3 hidden md:inline">
                         <Image src={janna_seropyan_portrait} alt="Жанна Серопян" className="hidden md:inline"/>
                     </div>
@@ -37,7 +37,7 @@ export default function Author(){
                     </div>
                 </div>
 
-                <div className="mt-8 md:mt-20 flex flex-col-reverse md:flex-row justify-between rounded-lg border border-_pink p-5 gap-x-10 gap-y-5">
+                <div data-aos="fade-right" data-aos-duration="2000" className="mt-8 md:mt-20 flex flex-col-reverse md:flex-row justify-between rounded-lg border border-_pink p-5 gap-x-10 gap-y-5">
                     
                     <div className="flex flex-col justify-around min-h-full md:w-7/12">
                         <div className="flex justify-between gap-x-10 w-full">

@@ -30,17 +30,17 @@ export default function Nav(){
                         <p className="block text-[12px] sm:text-[14px] md:text-[14px] lg:text-[18px]">Напишите нам:</p>
                     </div>
                     <div className="flex flex-col justify-center">
-                        <Link href={TG_LINK}>
+                        <Link href={TG_LINK} target="_blank">
                             <Image src={telegram} alt="telegram" className="block"/>
                         </Link>
                     </div>
                     <div className="flex flex-col justify-center">
-                        <Link href={WHATSAPP_LINK}>
+                        <Link href={WHATSAPP_LINK} target="_blank">
                             <Image src={whatsapp} alt="whatsapp" className="block"/>
                         </Link>
                     </div>
                     <div className="flex flex-col justify-center">
-                        <Link href={VK_LINK}>
+                        <Link href={VK_LINK} target="_blank">
                             <Image src={vk} alt="vk" className="block"/>
                         </Link>
                     </div>
@@ -53,13 +53,13 @@ export default function Nav(){
                         <Image src={cross} alt="x"  onClick={()=>setIsOpen(false)} className="absolute right-2 top-2"/>
                         <p className="block text-center">Напишите нам:</p>
                         <div className="flex justify-around p-4">
-                            <Link href={TG_LINK}>
+                            <Link href={TG_LINK} target="_blank">
                                 <Image src={telegram} alt="telegram" className="block"/>
                             </Link>
-                            <Link href={WHATSAPP_LINK}>
+                            <Link href={WHATSAPP_LINK} target="_blank">
                                 <Image src={whatsapp} alt="whatsapp" className="block"/>
                             </Link>
-                            <Link href={VK_LINK}>
+                            <Link href={VK_LINK} target="_blank">
                                 <Image src={vk} alt="vk" className="block"/>
                             </Link>
                         </div>

@@ -8,11 +8,11 @@ export default function Variants(){
         <section className="_section scroll-smooth">
             <div className="_wrapper mt-20 md:mt-40">
 
-            <h3 className={`${AVRILE_SERIF} _h`} id="payment">Варианты участия</h3>
+            <h3 data-aos="fade-right" data-aos-duration="2000" className={`${AVRILE_SERIF} _h`} id="payment">Варианты участия</h3>
             <div className="flex flex-col w-full md:flex-row mt-10 md:mt-14 md:py-10 ">
 
                 {/* Первый вариант */}
-                <div className="relative px-5 md:px-1 lg:px-5 border border-_pink rounded-md bg-_mainbg  bg-opacity-50 py-6 md:py-10 md:w-[32%]">
+                <div data-aos="fade-right" data-aos-duration="2000" className="relative px-5 md:px-1 lg:px-5 border border-_pink rounded-md bg-_mainbg  bg-opacity-50 py-6 md:py-10 md:w-[32%]">
                     <div>
                         <h5 className="_h-text">СТАРТОВЫЙ</h5>
                         <ul className="[&>li]:list-disc list-inside mt-4 [&>li]:mt-2.5 md:mt-10">
@@ -33,13 +33,13 @@ export default function Variants(){
                             <p><s>30 000 руб</s></p>
                             <p className="_h-text">24 900 руб</p>
                             <p className="-mx-2 text-[14px]">(скидка 10% при оплате сразу)</p>
-                            <Link href={VARIANT_1_LINK}>
+                            <Link href={VARIANT_1_LINK} target="_blank" >
                                 <Button className="!mx-auto !min-w-0 max-w-[283px] mt-6 md:mt-9 !w-full">
                                     Пройти курс!
                                 </Button>
                             </Link>
                             <p className="mt-5 md:mt-[27px]"><b>от 1 990 руб/мес</b></p>
-                            <Link href={VARIANT_1_CREDIT_LINK}>
+                            <Link href={VARIANT_1_CREDIT_LINK} target="_blank">
                                 <Button className="!w-full !mx-auto max-w-[283px] mt-2.5 !px-0 md:mt-5 bg-_white border-_purple border border-opacity-50 !text-_black !text-[14px] sm:!text-[16px] md:!text-[18px] lg:!text-[20px]">
                                     Пройти  в рассрочку
                                 </Button>
@@ -49,7 +49,7 @@ export default function Variants(){
                 </div>
 
                 {/* Второй вариант */}
-                <div className="relative mt-10 px-5 md:px-1 lg:px-5 -mx-[1px] border border-_pink rounded-md md:-my-10 py-6 md:w-[36%] md:py-20">
+                <div data-aos="fade-right" data-aos-duration="2000" className="relative mt-10 px-5 md:px-1 lg:px-5 -mx-[1px] border border-_pink rounded-md md:-my-10 py-6 md:w-[36%] md:py-20">
                     <div>
                         <h5 className="_h-text">ОСНОВНОЙ</h5>
                         <ul className="[&>li]:list-disc list-inside mt-4 md:mt-10 [&>li]:mt-2.5">
@@ -76,13 +76,13 @@ export default function Variants(){
                             <p><s>50 000 руб</s></p>
                             <p className="_h-text">37 900 руб</p>
                             <p className="-mx-1 text-[14px]">(скидка 10% при оплате сразу)</p>
-                            <Link href={VARIANT_2_LINK}>
+                            <Link href={VARIANT_2_LINK} target="_blank">
                                 <Button className="!mx-auto !min-w-0  max-w-[283px] mt-6 md:mt-9 !w-full">
                                     Пройти курс!
                                 </Button>
                             </Link>
                             <p className="mt-5 md:mt-[27px]"><b>от 3 575 руб/мес</b></p>
-                            <Link href={VARIANT_2_CREDIT_LINK}>
+                            <Link href={VARIANT_2_CREDIT_LINK} target="_blank">
                                 <Button className="!w-full !mx-auto max-w-[283px] mt-2.5 !px-0 md:mt-5 bg-_white border-_purple border border-opacity-50 !text-_black">
                                     Пройти  в рассрочку
                                 </Button>
@@ -92,7 +92,7 @@ export default function Variants(){
                 </div>
 
                 {/* Третий вариант */}
-                <div className="relative mt-10 border border-_pink rounded-md bg-_mainbg bg-opacity-50 px-5 md:px-1 lg:px-5 py-6 md:pb-[400px] md:py-10 md:mt-0 md:w-[32%]">
+                <div data-aos="fade-right" data-aos-duration="2000" className="relative mt-10 border border-_pink rounded-md bg-_mainbg bg-opacity-50 px-5 md:px-1 lg:px-5 py-6 md:pb-[400px] md:py-10 md:mt-0 md:w-[32%]">
                     <div>
                         <h5 className="_h-text">МАКСИМАЛЬНЫЙ</h5>
                         <ul className="[&>li]:list-disc list-inside mt-4 md:mt-10 [&>li]:mt-2.5">
@@ -127,13 +127,13 @@ export default function Variants(){
                             <p><s>90 000 руб</s></p>
                             <p className="_h-text">68 900 руб</p>
                             <p className="-mx-2 text-[14px]">(скидка 10% при оплате сразу)</p>
-                            <Link href={VARIANT_3_LINK}>
+                            <Link href={VARIANT_3_LINK} target="_blank">
                                 <Button className="!mx-auto !min-w-0 max-w-[283px] mt-6 md:mt-9 !w-full">
                                     Пройти курс!
                                 </Button>
                             </Link>
                             <p className="mt-5 md:mt-[27px]"><b>от 6 240 руб/мес</b></p>
-                            <Link href={VARIANT_3_CREDIT_LINK}>
+                            <Link href={VARIANT_3_CREDIT_LINK} target="_blank">
                                 <Button className="!w-full !mx-auto max-w-[283px] mt-2.5 !px-0 md:mt-5 bg-_white border-_purple border border-opacity-50 !text-_black">
                                     Пройти  в рассрочку
                                 </Button>

@@ -7,11 +7,11 @@ export default function Way(){
         <section className="_section _text-14-20">
             <div className="_wrapper mt-20 md:mt-40">
 
-                <div>
+                <div data-aos="fade-right" data-aos-duration="2000">
                     <h3 className={`${AVRILE_SERIF} _h`}>Как вокалисту раскрыть свой потенциал и сделать музыку своей профессией?</h3>
                 </div>
                 
-                <div className="relative">
+                <div data-aos="fade-right" data-aos-duration="2000" className="relative">
                     <div className="mt-10 gap-x-10 gap-y-5 md:flex">
 
                         <div className="relative z-30">
@@ -50,7 +50,7 @@ export default function Way(){
 
                     </div>
 
-                    <div className="absolute right-0 bottom-24 w-full z-40 flex justify-end xs:bottom-20 md:static md:z-0 md:justify-center md:-mt-[100px]">
+                    <div data-aos="fade-right" data-aos-duration="2000" className="absolute right-0 bottom-24 w-full z-40 flex justify-end xs:bottom-20 md:static md:z-0 md:justify-center md:-mt-[100px]">
                         <Image src={girl_with_microphone} alt="девочка с микрофоном" className="w-1/3 md:w-1/2 -ml-20"/>
                     </div>
 

@@ -7,7 +7,7 @@ export default function Formula(){
         <section className="_section">
             <div className="_wrapper mt-20 _text-14-20 md:mt-40">
 
-                <div>
+                <div data-aos="fade-right" data-aos-duration="2000">
                     <h3 className={`${AVRILE_SERIF} _h`}>
                         На самом деле есть простая<br/>
                         <span className="text-_purple"> Формула Красивого Голоса</span>
@@ -25,7 +25,7 @@ export default function Formula(){
                 </div>
                 {/* ДОДЕЛАТЬ ПОИНТЫ */}
 
-                <div className="mt-6 md:mt-14">
+                <div data-aos="fade-right" data-aos-duration="2000" className="mt-6 md:mt-14">
 
                     <p className="_text-bold-14-24 text-_purple text-center">Формула красивого голоса - это:</p>
 

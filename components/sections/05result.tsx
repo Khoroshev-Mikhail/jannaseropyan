@@ -5,10 +5,10 @@ export default function Result(){
     return (
         <section className="_section">
             <div className="_wrapper">
-                <div className="w-full">
+                <div data-aos="fade-right" data-aos-duration="2000" className="w-full">
                     <p className="_p-bg mt-12">В результате - вы годами ходите по кругу, БЕЗ каких либо изменений:</p>
                 </div>
-                <div className="flex justify-start">
+                <div data-aos="fade-right" data-aos-duration="2000" className="flex justify-start">
                     <div className="sm:hidden flex flex-col justify-center w-1/3 sm:w-full">
                         <Image src={boy_with_microphone} alt="Парень с микрофоном" className="block"/>
                     </div>

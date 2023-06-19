@@ -4,14 +4,14 @@ export default function Reason(){
     return (
         <section className="_section _text-14-20">
             <div className="_wrapper mt-20 md:mt-40">
-                <div>
+                <div data-aos="fade-right" data-aos-duration="2000">
                     <h3 className={`${AVRILE_SERIF} _h`}>
                         Дело в том, что 
                         <span className="text-_purple"> красивый голос - </span>
                         это автоматический навык
                     </h3>
                 </div>
-                <div>
+                <div data-aos="fade-right" data-aos-duration="2000">
                     <div className="mt-10 md:mt-16">
                         <p className="_text-bold-14-24">И да, петь и правда становится ЛЕГКО, если уметь:</p>
                     </div>
@@ -31,7 +31,7 @@ export default function Reason(){
                             <li>Подсознательно применять всю технику - чтобы свободно творить на сцене!</li>
                         </ul>
                     </div>
-                    <div>
+                    <div data-aos="fade-right" data-aos-duration="2000">
                         <p className="mt-9 font-bold">Много всего, правда? </p>
                     </div>
                 </div>
